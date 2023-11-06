@@ -1,0 +1,242 @@
+[
+  {
+    "description": "Adobe Illustrator",
+    "ext": ".ai",
+    "fileSig": [0x25, 0x50, 0x44, 0x46]
+  },
+  {
+    "description": "Bitmap graphic",
+    "ext": ".bmp",
+    "fileSig": [0x42, 0x4D]
+  },
+  {
+    "description": "Class File",
+    "ext": ".class",
+    "fileSig": [0xCA, 0xFE, 0xBA, 0xBE]
+  },
+  {
+    "description": "JPEG graphic file",
+    "ext": ".jpg",
+    "fileSig": [0xFF, 0xD8]
+  },
+  {
+    "description": "JPEG 2000 graphic file",
+    "ext": ".jp2",
+    "fileSig": [0x00, 0x00, 0x00, 0x0C, 0x6A, 0x50, 0x20, 0x20, 0x0D, 0x0A]
+  },
+  {
+    "description": "GIF graphic file",
+    "ext": ".gif",
+    "fileSig": [0x47, 0x49, 0x46, 0x38]
+  },
+  {
+    "description": "TIF graphic file",
+    "ext": ".tif",
+    "fileSig": [0x49, 0x49]
+  },
+  {
+    "description": "PNG graphic file",
+    "ext": ".png",
+    "fileSig": [0x89, 0x50, 0x4E, 0x47]
+  },
+  {
+    "description": "Photoshop Graphics",
+    "ext": ".psd",
+    "fileSig": [0x38, 0x42, 0x50, 0x53]
+  },
+  {
+    "description": "Windows Meta File",
+    "ext": ".wmf",
+    "fileSig": [0xD7, 0xCD, 0xC6, 0x9A]
+  },
+  {
+    "description": "MIDI file",
+    "ext": ".mid",
+    "fileSig": [0x4D, 0x54, 0x68, 0x64]
+  },
+  {
+    "description": "Icon file",
+    "ext": ".ico",
+    "fileSig": [0x00, 0x00, 0x01, 0x00]
+  },
+  {
+    "description": "MP3 file with ID3 identity tag",
+    "ext": ".mp3",
+    "fileSig": [0x49, 0x44, 0x33]
+  },
+  {
+    "description": "AVI video file",
+    "ext": ".avi",
+    "fileSig": [0x52, 0x49, 0x46, 0x46]
+  },
+  {
+    "description": "Flash Shockwave",
+    "ext": ".swf",
+    "fileSig": [0x46, 0x57, 0x53]
+  },
+  {
+    "description": "Flash Video",
+    "ext": ".flv",
+    "fileSig": [0x46, 0x4C, 0x56]
+  },
+  {
+    "description": "Mpeg 4 video file",
+    "ext": ".mp4",
+    "fileSig": [0x00, 0x00, 0x00, 0x18, 0x66, 0x74, 0x79, 0x70, 0x6D, 0x70, 0x34, 0x32]
+  },
+  {
+    "description": "MOV video file",
+    "ext": ".mov",
+    "fileSig": [0x6D, 0x6F, 0x6F, 0x76]
+  },
+  {
+    "description": "Windows Video file",
+    "ext": ".wmv",
+    "fileSig": [0x30, 0x26, 0xB2, 0x75, 0x8E, 0x66, 0xCF]
+  },
+  {
+    "description": "Windows Audio file",
+    "ext": ".wma",
+    "fileSig": [0x30, 0x26, 0xB2, 0x75, 0x8E, 0x66, 0xCF]
+  },
+  {
+    "description": "PKZip",
+    "ext": ".zip",
+    "fileSig": [0x50, 0x4B, 0x03, 0x04]
+  },
+  {
+    "description": "GZip",
+    "ext": ".gz",
+    "fileSig": [0x1F, 0x8B, 0x08]
+  },
+  {
+    "description": "Tar file",
+    "ext": ".tar",
+    "fileSig": [0x75, 0x73, 0x74, 0x61, 0x72]
+  },
+  {
+    "description": "Microsoft Installer",
+    "ext": ".msi",
+    "fileSig": [0xD0, 0xCF, 0x11, 0xE0, 0xA1, 0xB1, 0x1A, 0xE1]
+  },
+  {
+    "description": "Object Code File",
+    "ext": ".obj",
+    "fileSig": [0x4C, 0x01]
+  },
+  {
+    "description": "Dynamic Library",
+    "ext": ".dll",
+    "fileSig": [0x4D, 0x5A]
+  },
+  {
+    "description": "CAB Installer file",
+    "ext": ".cab",
+    "fileSig": [0x4D, 0x53, 0x43, 0x46]
+  },
+  {
+    "description": "Executable file",
+    "ext": ".exe",
+    "fileSig": [0x4D, 0x5A]
+  },
+  {
+    "description": "RAR file",
+    "ext": ".rar",
+    "fileSig": [0x52, 0x61, 0x72, 0x21, 0x1A, 0x07, 0x00]
+  },
+  {
+    "description": "SYS file",
+    "ext": ".sys",
+    "fileSig": [0x4D, 0x5A]
+  },
+  {
+    "description": "Help file",
+    "ext": ".hlp",
+    "fileSig": [0x3F, 0x5F, 0x03, 0x00]
+  },
+  {
+    "description": "VMWare Disk file",
+    "ext": ".vmdk",
+    "fileSig": [0x4B, 0x44, 0x4D, 0x56]
+  },
+  {
+    "description": "Outlook Post Office file",
+    "ext": ".pst",
+    "fileSig": [0x21, 0x42, 0x44, 0x4E, 0x42]
+  },
+  {
+    "description": "PDF Document",
+    "ext": ".pdf",
+    "fileSig": [0x25, 0x50, 0x44, 0x46]
+  },
+  {
+    "description": "Word Document",
+    "ext": ".doc",
+    "fileSig": [0xD0, 0xCF, 0x11, 0xE0, 0xA1, 0xB1, 0x1A, 0xE1]
+  },
+  {
+    "description": "RTF Document",
+    "ext": ".rtf",
+    "fileSig": [0x7B, 0x5C, 0x72, 0x74, 0x66, 0x31]
+  },
+  {
+    "description": "Excel Document",
+    "ext": ".xls",
+    "fileSig": [0xD0, 0xCF, 0x11, 0xE0, 0xA1, 0xB1, 0x1A, 0xE1]
+  },
+  {
+    "description": "PowerPoint Document",
+    "ext": ".ppt",
+    "fileSig": [0xD0, 0xCF, 0x11, 0xE0, 0xA1, 0xB1, 0x1A, 0xE1]
+  },
+  {
+    "description": "Visio Document",
+    "ext": ".vsd",
+    "fileSig": [0xD0, 0xCF, 0x11, 0xE0, 0xA1, 0xB1, 0x1A, 0xE1]
+  },
+  {
+    "description": "DOCX (Office 2010)",
+    "ext": ".docx",
+    "fileSig": [0x50, 0x4B, 0x03, 0x04]
+  },
+  {
+    "description": "XLSX (Office 2010)",
+    "ext": ".xlsx",
+    "fileSig": [0x50, 0x4B, 0x03, 0x04]
+  },
+  {
+    "description": "PPTX (Office 2010)",
+    "ext": ".pptx",
+    "fileSig": [0x50, 0x4B, 0x03, 0x04]
+  },
+  {
+    "description": "Microsoft Database",
+    "ext": ".mdb",
+    "fileSig": [0x53, 0x74, 0x61, 0x6E, 0x64, 0x61, 0x72, 0x64, 0x20, 0x4A, 0x65, 0x74]
+  },
+  {
+    "description": "Postcript File",
+    "ext": ".ps",
+    "fileSig": [0x25, 0x21]
+  },
+  {
+    "description": "Outlook Message File",
+    "ext": ".msg",
+    "fileSig": [0xD0, 0xCF, 0x11, 0xE0, 0xA1, 0xB1, 0x1A, 0xE1]
+  },
+  {
+    "description": "EPS File",
+    "ext": ".eps",
+    "fileSig": [0x25, 0x21, 0x50, 0x53, 0x2D, 0x41, 0x64, 0x6F, 0x62, 0x65, 0x2D, 0x33, 0x2E, 0x30, 0x20, 0x45, 0x50, 0x53, 0x46, 0x2D, 0x33, 0x20, 0x30]
+  },
+  {
+    "description": "Jar File",
+    "ext": ".jar",
+    "fileSig": [0x50, 0x4B, 0x03, 0x04, 0x14, 0x00, 0x08, 0x00, 0x08, 0x00]
+  },
+  {
+    "description": "SLN File",
+    "ext": ".sln",
+    "fileSig": [0x4D, 0x69, 0x63, 0x72, 0x6F, 0x73, 0x6F, 0x66, 0x74, 0x20, 0x56, 0x69, 0x73, 0x75, 0x61, 0x6C, 0x20, 0x53, 0x74, 0x75, 0x64, 0x69, 0x6F, 0x20, 0x53, 0x6F, 0x6C, 0x75, 0x74, 0x69, 0x6F, 0x6E, 0x20, 0x46, 0x69, 0x6C, 0x65]
+  }
+]
