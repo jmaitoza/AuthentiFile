@@ -2,6 +2,7 @@ namespace AuthentiFile;
 
 public class FileSignature
 {
-    public string Extension { get; set; }
-    public List<MagicNumber> MagicNumber{ get; set; }
+    public string Description { get; set; }
+    public string Ext { get; set; }
+    public List<byte> FileSig { get; set; }
 }
