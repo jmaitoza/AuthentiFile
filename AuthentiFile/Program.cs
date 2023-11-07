@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Http.Json;
+using System.Runtime.InteropServices.ComTypes;
 using AuthentiFile;
 using Newtonsoft.Json;
+
 
 class Program
 {
@@ -25,12 +27,39 @@ class Program
     // };
     
     // deserialize JSON file into a list of FileSignature objects
-    private static List<FileSignature> fileSigs = JsonConvert.DeserializeObject<List<FileSignature>>(File.ReadAllText("fileSigs.json"));
+    private static List<FileSignature> fileSigs = JsonConvert.DeserializeObject<List<FileSignature>>(File.ReadAllText("/Users/joshuamaitoza/RiderProjects/AuthentiFile/AuthentiFile/fileSigs.json"));
     
     static void ListMasqueradedFiles(string dirPath)
     {
         // get all the files in the selected directory
-        
+        foreach (var filePath in Directory.GetFiles(dirPath))
+        {
+            // get file extension listed in file name
+            var fileExtInName = Path.GetExtension(filePath).ToLower();
+            // explain lambda here
+            var fileSignature = fileSigs.FirstOrDefault(fileSigs => fileSigs.Extension == fileExtInName);
+
+            if (fileSignature != null)
+            {
+                using var fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read);
+                // extract the magic number bytes in each file header in the dir
+                foreach (var magicNumber in fileSignature.MagicNumber.Select(
+                             magicNumber => magicNumber.MagicNumberBytes))
+                {
+                    var buffer = new byte[magicNumber.Count];
+                    fileStream.Read(buffer, 0, buffer.Count());
+
+                    if (!buffer.SequenceEqual(magicNumber)) //check if two buffers are equal
+                    {
+                        // if not equal, print out the file's name and its file path
+                        string fileName = Path.GetFileName(filePath);
+                        string absoluteFilePath = Path.GetFullPath(filePath);
+                        Console.WriteLine($"File Name: {fileName}, File Path: {absoluteFilePath}");
+                        break;
+                    }
+                }
+            }
+        }
         
         // foreach (var filePath in Directory.GetFiles(dirPath))
         // {
@@ -65,7 +94,8 @@ class Program
 
     static void Main(string[] args)
     {
-        ListMasqueradedFiles("/Users/joshuamaitoza/RiderProjects/Forensics/testFiles"); //macbook path
+        
+        ListMasqueradedFiles("/Users/joshuamaitoza/RiderProjects/AuthentiFile/testFiles"); //macbook path
         // ListMasqueradedFiles("C:\\Users\\joshm\\RiderProjects\\AuthentiFile\\testFiles"); // windows pc path
     }
 
