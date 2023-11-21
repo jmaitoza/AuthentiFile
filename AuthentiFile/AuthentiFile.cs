@@ -1,16 +1,20 @@
 ﻿using Newtonsoft.Json;
-using NativeFileDialogSharp;
 
 namespace AuthentiFile;
 
 public class AuthentiFile
 {
+    // link fileSigs.json to the correct build directory when building the project
+    static string jsonFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "fileSigs.json");
     // deserialize JSON file into a list of FileSignature objects
-    private static List<FileSignature> fileSigs = JsonConvert.DeserializeObject<List<FileSignature>>(File.ReadAllText("fileSigs.json")) ?? throw new InvalidOperationException();
+    private static List<FileSignature> fileSigs = JsonConvert.DeserializeObject<List<FileSignature>>(File.ReadAllText(jsonFilePath)) ?? throw new InvalidOperationException();
     
     
     static void ListMasqueradedFiles(string dirPath)
     {
+        // ensure the base directory that dirPath is relative to is the root of the drive not the root of the project
+        dirPath = Path.GetFullPath(dirPath);
+        
         if (Directory.Exists(dirPath)) // ensure directory exists before listing files
         {
             // get all the files in the selected directory
