@@ -13,7 +13,7 @@
 
     <ItemGroup>
       <None Update="fileSigs.json">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>
 

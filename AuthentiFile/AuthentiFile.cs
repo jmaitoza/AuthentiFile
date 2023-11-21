@@ -7,7 +7,22 @@ public class AuthentiFile
     // link fileSigs.json to the correct build directory when building the project
     static string jsonFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "fileSigs.json");
     // deserialize JSON file into a list of FileSignature objects
-    private static List<FileSignature> fileSigs = JsonConvert.DeserializeObject<List<FileSignature>>(File.ReadAllText(jsonFilePath)) ?? throw new InvalidOperationException();
+    //private static List<FileSignature> fileSigs = JsonConvert.DeserializeObject<List<FileSignature>>(File.ReadAllText(jsonFilePath)) ?? throw new InvalidOperationException();
+    private static List<FileSignature> fileSigs;
+
+    static AuthentiFile()
+    {
+        try
+        {
+            string jsonData = File.ReadAllText(jsonFilePath);
+            fileSigs = JsonConvert.DeserializeObject<List<FileSignature>>(jsonData);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error initializing AuthentiFile: {ex.Message}");
+            throw;
+        }
+    }
     
     
     static void ListMasqueradedFiles(string dirPath)
@@ -17,6 +32,8 @@ public class AuthentiFile
         
         if (Directory.Exists(dirPath)) // ensure directory exists before listing files
         {
+            int masqueradedFileCount = 0; 
+            
             // get all the files in the selected directory
             foreach (var filePath in Directory.GetFiles(dirPath))
             {
@@ -38,16 +55,22 @@ public class AuthentiFile
                         string fileName = Path.GetFileName(filePath);
                         string absoluteFilePath = Path.GetFullPath(filePath);
                         Console.WriteLine($"File Name: {fileName}, File Path: {absoluteFilePath}");
+                        
+                        masqueradedFileCount++;
                     }
                 }
-            }    
+            } 
+            // check counter to see if any masqueraded files were found
+            if (masqueradedFileCount == 0)
+            {
+                Console.WriteLine($"No masqueraded files found in the directory {dirPath}.");
+            }
         }
-
+        
         else
         {
             Console.WriteLine($"Cannot list files in {dirPath} because it does not exist.");
         }
-        
     }
 
     private static string GetUserDirectory()
