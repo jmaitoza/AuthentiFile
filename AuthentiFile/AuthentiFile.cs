@@ -5,7 +5,8 @@ namespace AuthentiFile;
 public class AuthentiFile
 {
     // link fileSigs.json to the correct build directory when building the project
-    static string jsonFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "fileSigs.json");
+    // static string jsonFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "fileSigs.json");
+    static string jsonFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "converted_file_sigs.json");
     // deserialize JSON file into a list of FileSignature objects
     //private static List<FileSignature> fileSigs = JsonConvert.DeserializeObject<List<FileSignature>>(File.ReadAllText(jsonFilePath)) ?? throw new InvalidOperationException();
     private static List<FileSignature> fileSigs;
@@ -40,7 +41,8 @@ public class AuthentiFile
                 // get file extension listed in file name
                 var fileExtInName = Path.GetExtension(filePath).ToLower();
                 // fetches the first matching file signature based on the file extension in the name
-                var fileSignature = fileSigs.FirstOrDefault(fileSigs => fileSigs.Ext == fileExtInName);
+                //var fileSignature = fileSigs.FirstOrDefault(fileSigs => fileSigs.Ext == fileExtInName);
+                var fileSignature = fileSigs.FirstOrDefault(fileSigs => fileSigs.Ext.Contains(fileExtInName));
     
                 if (fileSignature != null)
                 {

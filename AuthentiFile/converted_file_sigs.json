@@ -1,0 +1,3691 @@
+[
+  {
+    "description": "High Efficiency Image Container (HEIC)_1",
+    "ext": [".avif"],
+    "fileSig": [0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "High Efficiency Image Container (HEIC)_2",
+    "ext": [".heic"],
+    "fileSig": [0x00, 0x00, 0x00, 0x20, 0x66, 0x74, 0x79, 0x70, 0x68, 0x65, 0x69, 0x63]
+  },
+
+  {
+    "description": "JPEG2000 image files",
+    "ext": [".jp2"],
+    "fileSig": [0x00, 0x00, 0x00, 0x0c, 0x6a, 0x50, 0x20, 0x20]
+  },
+
+  {
+    "description": "3GPP multimedia files",
+    "ext": [".3gp"],
+    "fileSig": [0x00, 0x00, 0x00, 0x14, 0x66, 0x74, 0x79, 0x70]
+  },
+
+  {
+    "description": "MPEG-4 v1",
+    "ext": [".mp4"],
+    "fileSig": [0x00, 0x00, 0x00, 0x14, 0x66, 0x74, 0x79, 0x70, 0x69, 0x73, 0x6f, 0x6d]
+  },
+
+  {
+    "description": "3rd Generation Partnership Project 3GPP",
+    "ext": [".3gg", ".3gp", ".3g2"],
+    "fileSig": [0x00, 0x00, 0x00, 0x14, 0x66, 0x74, 0x79, 0x70]
+  },
+
+  {
+    "description": "Windows Disk Image",
+    "ext": [".tbi"],
+    "fileSig": [0x00, 0x00, 0x00, 0x00, 0x14, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Bitcoin Core wallet.dat file",
+    "ext": [".dat"],
+    "fileSig": [0x00, 0x00, 0x00, 0x00, 0x62, 0x31, 0x05, 0x00, 0x09, 0x00, 0x00, 0x00, 0x00, 0x20, 0x00, 0x00, 0x00, 0x09, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "MPEG-4 video_1",
+    "ext": [".3gp5", ".m4v", ".mp4"],
+    "fileSig": [0x00, 0x00, 0x00, 0x18, 0x66, 0x74, 0x79, 0x70]
+  },
+
+  {
+    "description": "MPEG-4 video_2",
+    "ext": [".mp4"],
+    "fileSig": [0x00, 0x00, 0x00, 0x1c, 0x66, 0x74, 0x79, 0x70]
+  },
+
+  {
+    "description": "3GPP2 multimedia files",
+    "ext": [".3gp"],
+    "fileSig": [0x00, 0x00, 0x00, 0x20, 0x66, 0x74, 0x79, 0x70]
+  },
+
+  {
+    "description": "Apple audio and video",
+    "ext": [".m4a"],
+    "fileSig": [0x00, 0x00, 0x00, 0x20, 0x66, 0x74, 0x79, 0x70, 0x4d, 0x34, 0x41]
+  },
+
+  {
+    "description": "3rd Generation Partnership Project 3GPP2",
+    "ext": [".3gg", ".3gp", ".3g2"],
+    "fileSig": [0x00, 0x00, 0x00, 0x20, 0x66, 0x74, 0x79, 0x70]
+  },
+
+  {
+    "description": "Windows icon|printer spool file",
+    "ext": [".ico", ".spl"],
+    "fileSig": [0x00, 0x00, 0x01, 0x00]
+  },
+
+  {
+    "description": "MPEG video file",
+    "ext": [".mpg"],
+    "fileSig": [0x00, 0x00, 0x01, 0xb3]
+  },
+
+  {
+    "description": "DVD video file",
+    "ext": [".mpg", ".vob"],
+    "fileSig": [0x00, 0x00, 0x01, 0xba]
+  },
+
+  {
+    "description": "Windows cursor",
+    "ext": [".cur"],
+    "fileSig": [0x00, 0x00, 0x02, 0x00]
+  },
+
+  {
+    "description": "Compucon-Singer embroidery design file",
+    "ext": [".xxx"],
+    "fileSig": [0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "QuattroPro spreadsheet",
+    "ext": [".wb2"],
+    "fileSig": [0x00, 0x00, 0x02, 0x00]
+  },
+
+  {
+    "description": "Amiga Hunk executable",
+    "ext": [".(none)"],
+    "fileSig": [0x00, 0x00, 0x03, 0xf3]
+  },
+
+  {
+    "description": "Wii images container",
+    "ext": [".tpl"],
+    "fileSig": [0x00, 0x20, 0xaf, 0x30]
+  },
+
+  {
+    "description": "Lotus 1-2-3 (v1)",
+    "ext": [".wk1"],
+    "fileSig": [0x00, 0x00, 0x02, 0x00, 0x06, 0x04, 0x06, 0x00]
+  },
+
+  {
+    "description": "Lotus 1-2-3 (v3)",
+    "ext": [".wk3"],
+    "fileSig": [0x00, 0x00, 0x1a, 0x00, 0x00, 0x10, 0x04, 0x00]
+  },
+
+  {
+    "description": "Lotus 1-2-3 (v4-v5)",
+    "ext": [".wk4",".wk5"],
+    "fileSig": [0x00, 0x00, 0x1a, 0x00, 0x02, 0x10, 0x04, 0x00]
+  },
+
+  {
+    "description": "Lotus 1-2-3 (v9)",
+    "ext": [".123"],
+    "fileSig": [0x00, 0x00, 0x1a, 0x00, 0x05, 0x10, 0x04]
+  },
+
+  {
+    "description": "Quark Express (Intel)",
+    "ext": [".qxd"],
+    "fileSig": [0x00, 0x00, 0x49, 0x49, 0x58, 0x50, 0x52]
+  },
+
+  {
+    "description": "Quark Express (Motorola)",
+    "ext": [".qxd"],
+    "fileSig": [0x00, 0x00, 0x4d, 0x4d, 0x58, 0x50, 0x52]
+  },
+
+  {
+    "description": "Windows Help file_1",
+    "ext": [".hlp"],
+    "fileSig": [0x00, 0x00, 0xff, 0xff, 0xff, 0xff]
+  },
+
+  {
+    "description": "TrueType font file",
+    "ext": [".ttf"],
+    "fileSig": [0x00, 0x01, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Microsoft Money file",
+    "ext": [".mny"],
+    "fileSig": [0x00, 0x01, 0x00, 0x00, 0x4d, 0x53, 0x49, 0x53, 0x41, 0x4d, 0x20, 0x44, 0x61, 0x74, 0x61, 0x62, 0x61, 0x73, 0x65]
+  },
+
+  {
+    "description": "Microsoft Access 2007",
+    "ext": [".accdb"],
+    "fileSig": [0x00, 0x01, 0x00, 0x00, 0x53, 0x74, 0x61, 0x6e, 0x64, 0x61, 0x72, 0x64, 0x20, 0x41, 0x43, 0x45, 0x20, 0x44, 0x42]
+  },
+
+  {
+    "description": "Microsoft Access",
+    "ext": [".mdb"],
+    "fileSig": [0x00, 0x01, 0x00, 0x00, 0x53, 0x74, 0x61, 0x6e, 0x64, 0x61, 0x72, 0x64, 0x20, 0x4a, 0x65, 0x74, 0x20, 0x44, 0x42]
+  },
+
+  {
+    "description": "Palm Address Book Archive",
+    "ext": [".aba"],
+    "fileSig": [0x00, 0x01, 0x42, 0x41]
+  },
+
+  {
+    "description": "Palm DateBook Archive",
+    "ext": [".dba"],
+    "fileSig": [0x00, 0x01, 0x42, 0x44]
+  },
+
+  {
+    "description": "Netscape Navigator (v4) database",
+    "ext": [".db"],
+    "fileSig": [0x00, 0x06, 0x15, 0x61, 0x00, 0x00, 0x00, 0x02, 0x00, 0x00, 0x04, 0xd2, 0x00, 0x00, 0x10, 0x00]
+  },
+
+  {
+    "description": "Mbox table of contents file",
+    "ext": [".(none)"],
+    "fileSig": [0x00, 0x0d, 0xbb, 0xa0]
+  },
+
+  {
+    "description": "FLIC animation",
+    "ext": [".fli"],
+    "fileSig": [0x00, 0x11]
+  },
+
+  {
+    "description": "BIOS details in RAM",
+    "ext": [".(none)"],
+    "fileSig": [0x00, 0x14, 0x00, 0x00, 0x01, 0x02]
+  },
+
+  {
+    "description": "Netscape Communicator (v4) mail folder",
+    "ext": [".snm"],
+    "fileSig": [0x00, 0x1e, 0x84, 0x90, 0x00, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Paessler PRTG Monitoring System",
+    "ext": [".db"],
+    "fileSig": [0x00, 0x3b, 0x05, 0x00, 0x01, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "PowerPoint presentation subheader_1",
+    "ext": [".ppt"],
+    "fileSig": [0x00, 0x6e, 0x1e, 0xf0]
+  },
+
+  {
+    "description": "Webex Advanced Recording Format",
+    "ext": [".arf"],
+    "fileSig": [0x01, 0x00, 0x02, 0x00]
+  },
+
+  {
+    "description": "Firebird and Interbase database files",
+    "ext": [".fdb", ".gdb"],
+    "fileSig": [0x01, 0x00, 0x39, 0x30]
+  },
+
+  {
+    "description": "The Bat! Message Base Index",
+    "ext": [".tbi"],
+    "fileSig": [0x01, 0x01, 0x47, 0x19, 0xa4, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "SQL Data Base",
+    "ext": [".mdf"],
+    "fileSig": [0x01, 0x0f, 0x00, 0x00]
+  },
+
+  {
+    "description": "Novell LANalyzer capture file",
+    "ext": [".tr1"],
+    "fileSig": [0x01, 0x10]
+  },
+
+  {
+    "description": "Silicon Graphics RGB Bitmap",
+    "ext": [".rgb"],
+    "fileSig": [0x01, 0xda, 0x01, 0x01, 0x00, 0x03]
+  },
+
+  {
+    "description": "Micrografx vector graphic file",
+    "ext": [".drw"],
+    "fileSig": [0x01, 0xff, 0x02, 0x04, 0x03, 0x02]
+  },
+
+  {
+    "description": "Digital Speech Standard file",
+    "ext": [".dss"],
+    "fileSig": [0x02, 0x64, 0x73, 0x73]
+  },
+
+  {
+    "description": "MapInfo Native Data Format",
+    "ext": [".dat"],
+    "fileSig": [0x03]
+  },
+
+  {
+    "description": "dBASE III file",
+    "ext": [".db3"],
+    "fileSig": [0x03]
+  },
+
+  {
+    "description": "Quicken price history",
+    "ext": [".qph"],
+    "fileSig": [0x03, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Nokia PC Suite Content Copier file",
+    "ext": [".nfc"],
+    "fileSig": [0x03, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Approach index file",
+    "ext": [".adx"],
+    "fileSig": [0x03, 0x00, 0x00, 0x00, 0x41, 0x50, 0x50, 0x52]
+  },
+
+  {
+    "description": "Digital Speech Standard (v3)",
+    "ext": [".dss"],
+    "fileSig": [0x03, 0x64, 0x73, 0x73]
+  },
+
+  {
+    "description": "dBASE IV file",
+    "ext": [".db4"],
+    "fileSig": [0x04]
+  },
+
+  {
+    "description": "INFO2 Windows recycle bin_1",
+    "ext": [".(none)"],
+    "fileSig": [0x04, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "INFO2 Windows recycle bin_2",
+    "ext": [".(none)"],
+    "fileSig": [0x05, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Adobe InDesign",
+    "ext": [".indd"],
+    "fileSig": [0x06, 0x06, 0xed, 0xf5, 0xd8, 0x1d, 0x46, 0xe5, 0xbd, 0x31, 0xef, 0xe7, 0xfe, 0x74, 0xb7, 0x1d]
+  },
+
+  {
+    "description": "Material Exchange Format",
+    "ext": [".mxf"],
+    "fileSig": [0x06, 0x0e, 0x2b, 0x34, 0x02, 0x05, 0x01, 0x01, 0x0d, 0x01, 0x02, 0x01, 0x01, 0x02]
+  },
+
+  {
+    "description": "Generic drawing programs",
+    "ext": [".drw"],
+    "fileSig": [0x07]
+  },
+
+  {
+    "description": "SkinCrafter skin",
+    "ext": [".skf"],
+    "fileSig": [0x07, 0x53, 0x4b, 0x46]
+  },
+
+  {
+    "description": "DesignTools 2D Design file",
+    "ext": [".dtd"],
+    "fileSig": [0x07, 0x64, 0x74, 0x32, 0x64, 0x64, 0x74, 0x64]
+  },
+
+  {
+    "description": "dBASE IV or dBFast configuration file",
+    "ext": [".db"],
+    "fileSig": [0x08]
+  },
+
+  {
+    "description": "Excel spreadsheet subheader_1",
+    "ext": [".xls"],
+    "fileSig": [0x09, 0x08, 0x10, 0x00, 0x00, 0x06, 0x05, 0x00]
+  },
+
+  {
+    "description": "ZSOFT Paintbrush file_1",
+    "ext": [".pcx"],
+    "fileSig": [0x0a, 0x02, 0x01, 0x01]
+  },
+
+  {
+    "description": "ZSOFT Paintbrush file_2",
+    "ext": [".pcx"],
+    "fileSig": [0x0a, 0x03, 0x01, 0x01]
+  },
+
+  {
+    "description": "ZSOFT Paintbrush file_3",
+    "ext": [".pcx"],
+    "fileSig": [0x0a, 0x05, 0x01, 0x01]
+  },
+
+  {
+    "description": "MultiBit Bitcoin wallet file",
+    "ext": [".wallet"],
+    "fileSig": [0x0a, 0x16, 0x6f, 0x72, 0x67, 0x2e, 0x62, 0x69, 0x74, 0x63, 0x6f, 0x69, 0x6e, 0x2e, 0x70, 0x72]
+  },
+
+  {
+    "description": "Monochrome Picture TIFF bitmap",
+    "ext": [".mp"],
+    "fileSig": [0x0c, 0xed]
+  },
+
+  {
+    "description": "DeskMate Document",
+    "ext": [".doc"],
+    "fileSig": [0x0d, 0x44, 0x4f, 0x43]
+  },
+
+  {
+    "description": "Nero CD compilation",
+    "ext": [".nri"],
+    "fileSig": [0x0e, 0x4e, 0x65, 0x72, 0x6f, 0x49, 0x53, 0x4f]
+  },
+
+  {
+    "description": "DeskMate Worksheet",
+    "ext": [".wks"],
+    "fileSig": [0x0e, 0x57, 0x4b, 0x53]
+  },
+
+  {
+    "description": "PowerPoint presentation subheader_2",
+    "ext": [".ppt"],
+    "fileSig": [0x0f, 0x00, 0xe8, 0x03]
+  },
+
+  {
+    "description": "Sibelius Music - Score",
+    "ext": [".sib"],
+    "fileSig": [0x0f, 0x53, 0x49, 0x42, 0x45, 0x4c, 0x49, 0x55, 0x53]
+  },
+
+  {
+    "description": "Easy CD Creator 5 Layout file",
+    "ext": [".cl5"],
+    "fileSig": [0x10, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Windows prefetch file",
+    "ext": [".pf"],
+    "fileSig": [0x11, 0x00, 0x00, 0x00, 0x53, 0x43, 0x43, 0x41]
+  },
+
+  {
+    "description": "Lotus Notes database template",
+    "ext": [".ntf"],
+    "fileSig": [0x1a, 0x00, 0x00]
+  },
+
+  {
+    "description": "Lotus Notes database",
+    "ext": [".nsf"],
+    "fileSig": [0x1a, 0x00, 0x00, 0x04, 0x00, 0x00]
+  },
+
+  {
+    "description": "LH archive (old vers.-type 1)",
+    "ext": [".arc"],
+    "fileSig": [0x1a, 0x02]
+  },
+
+  {
+    "description": "LH archive (old vers.-type 2)",
+    "ext": [".arc"],
+    "fileSig": [0x1a, 0x03]
+  },
+
+  {
+    "description": "LH archive (old vers.-type 3)",
+    "ext": [".arc"],
+    "fileSig": [0x1a, 0x04]
+  },
+
+  {
+    "description": "LH archive (old vers.-type 4)",
+    "ext": [".arc"],
+    "fileSig": [0x1a, 0x08]
+  },
+
+  {
+    "description": "LH archive (old vers.-type 5)",
+    "ext": [".arc"],
+    "fileSig": [0x1a, 0x09]
+  },
+
+  {
+    "description": "Compressed archive file",
+    "ext": [".pak"],
+    "fileSig": [0x1a, 0x0b]
+  },
+
+  {
+    "description": "WinPharoah capture file",
+    "ext": [".eth"],
+    "fileSig": [0x1a, 0x35, 0x01, 0x00]
+  },
+
+  {
+    "description": "WebM video file",
+    "ext": [".webm"],
+    "fileSig": [0x1a, 0x45, 0xdf, 0xa3]
+  },
+
+  {
+    "description": "Matroska stream file_1",
+    "ext": [".mkv"],
+    "fileSig": [0x1a, 0x45, 0xdf, 0xa3]
+  },
+
+  {
+    "description": "Matroska stream file_2",
+    "ext": [".mkv"],
+    "fileSig": [0x1a, 0x45, 0xdf, 0xa3, 0x93, 0x42, 0x82, 0x88]
+  },
+
+  {
+    "description": "Runtime Software disk image",
+    "ext": [".dat"],
+    "fileSig": [0x1a, 0x52, 0x54, 0x53, 0x20, 0x43, 0x4f, 0x4d]
+  },
+
+  {
+    "description": "WordStar Version 5.0-6.0 document",
+    "ext": [".ws"],
+    "fileSig": [0x1d, 0x7d]
+  },
+
+  {
+    "description": "GZIP archive file",
+    "ext": [".gz"],
+    "fileSig": [0x1f, 0x8b, 0x08]
+  },
+
+  {
+    "description": "VLC Player Skin file",
+    "ext": [".vlt"],
+    "fileSig": [0x1f, 0x8b, 0x08]
+  },
+
+  {
+    "description": "Synology router configuration backup file",
+    "ext": [".dss"],
+    "fileSig": [0x1f, 0x8b, 0x08, 0x00]
+  },
+
+  {
+    "description": "Compressed tape archive_1",
+    "ext": [".tar.z"],
+    "fileSig": [0x1f, 0x9d, 0x90]
+  },
+
+  {
+    "description": "Compressed tape archive_2",
+    "ext": [".tar.z"],
+    "fileSig": [0x1f, 0xa0]
+  },
+
+  {
+    "description": "MapInfo Sea Chart",
+    "ext": [".bsb"],
+    "fileSig": [0x21]
+  },
+
+  {
+    "description": "NOAA Raster Navigation Chart (RNC) file",
+    "ext": [".bsb"],
+    "fileSig": [0x21, 0x0d, 0x0a, 0x43, 0x52, 0x52, 0x2f, 0x54, 0x68, 0x69, 0x73, 0x20, 0x65, 0x6c, 0x65, 0x63]
+  },
+
+  {
+    "description": "AIN Compressed Archive",
+    "ext": [".ain"],
+    "fileSig": [0x21, 0x12]
+  },
+
+  {
+    "description": "Unix archiver (ar)-MS Program Library Common Object File Format (COFF)",
+    "ext": [".lib"],
+    "fileSig": [0x21, 0x3c, 0x61, 0x72, 0x63, 0x68, 0x3e, 0x0a]
+  },
+
+  {
+    "description": "Microsoft Outlook Exchange Offline Storage Folder",
+    "ext": [".ost"],
+    "fileSig": [0x21, 0x42, 0x44, 0x4e]
+  },
+
+  {
+    "description": "Cerius2 file",
+    "ext": [".msi"],
+    "fileSig": [0x23, 0x20]
+  },
+
+  {
+    "description": "VMware 4 Virtual Disk description",
+    "ext": [".vmdk"],
+    "fileSig": [0x23, 0x20, 0x44, 0x69, 0x73, 0x6b, 0x20, 0x44]
+  },
+
+  {
+    "description": "MS Developer Studio project file",
+    "ext": [".dsp"],
+    "fileSig": [0x23, 0x20, 0x4d, 0x69, 0x63, 0x72, 0x6f, 0x73]
+  },
+
+  {
+    "description": "Google Earth Keyhole Placemark file",
+    "ext": [".eta"],
+    "fileSig": [0x23, 0x20, 0x54, 0x68, 0x69, 0x73, 0x20, 0x69, 0x73, 0x20, 0x61, 0x6e, 0x20, 0x4b, 0x65, 0x79]
+  },
+
+  {
+    "description": "Adaptive Multi-Rate ACELP Codec (GSM)",
+    "ext": [".amr"],
+    "fileSig": [0x23, 0x21, 0x41, 0x4d, 0x52]
+  },
+
+  {
+    "description": "Skype audio compression",
+    "ext": [".sil"],
+    "fileSig": [0x23, 0x21, 0x53, 0x49, 0x4c, 0x4b, 0x0a]
+  },
+
+  {
+    "description": "Radiance High Dynamic Range image file",
+    "ext": [".hdr"],
+    "fileSig": [0x23, 0x3f, 0x52, 0x41, 0x44, 0x49, 0x41, 0x4e]
+  },
+
+  {
+    "description": "VBScript Encoded script",
+    "ext": [".vbe"],
+    "fileSig": [0x23, 0x40, 0x7e, 0x5e]
+  },
+
+  {
+    "description": "NVIDIA Scene Graph binary file",
+    "ext": [".nbf"],
+    "fileSig": [0x23, 0x4e, 0x42, 0x46]
+  },
+
+  {
+    "description": "Brother-Babylock-Bernina Home Embroidery",
+    "ext": [".pec"],
+    "fileSig": [0x23, 0x50, 0x45, 0x43, 0x30, 0x30, 0x30, 0x31]
+  },
+
+  {
+    "description": "Brother-Babylock-Bernina Home Embroidery",
+    "ext": [".pes"],
+    "fileSig": [0x23, 0x50, 0x45, 0x53, 0x30]
+  },
+
+  {
+    "description": "SPSS Data file",
+    "ext": [".sav"],
+    "fileSig": [0x24, 0x46, 0x4c, 0x32, 0x40, 0x28, 0x23, 0x29]
+  },
+
+  {
+    "description": "Encapsulated PostScript file",
+    "ext": [".eps"],
+    "fileSig": [0x25, 0x21, 0x50, 0x53, 0x2d, 0x41, 0x64, 0x6f]
+  },
+
+  {
+    "description": "PostScript file",
+    "ext": [".ps"],
+    "fileSig": [0x25, 0x21, 0x50, 0x53, 0x2d, 0x41, 0x64, 0x6f, 0x62, 0x65, 0x2d]
+  },
+
+  {
+    "description": "PDF file",
+    "ext": [".pdf", ".fdf"],
+    "fileSig": [0x25, 0x50, 0x44, 0x46]
+  },
+
+  {
+    "description": "Fuzzy bitmap (FBM) file",
+    "ext": [".fbm"],
+    "fileSig": [0x25, 0x62, 0x69, 0x74, 0x6d, 0x61, 0x70]
+  },
+
+  {
+    "description": "BinHex 4 Compressed Archive",
+    "ext": [".hqx"],
+    "fileSig": [0x28, 0x54, 0x68, 0x69, 0x73, 0x20, 0x66, 0x69]
+  },
+
+  {
+    "description": "Symantec Wise Installer log",
+    "ext": [".log"],
+    "fileSig": [0x2a, 0x2a, 0x2a, 0x20, 0x20, 0x49, 0x6e, 0x73]
+  },
+
+  {
+    "description": "Compressed archive",
+    "ext": [".lha", ".lzh"],
+    "fileSig": [0x2d, 0x6c, 0x68]
+  },
+
+  {
+    "description": "RealPlayer video file (V11+)",
+    "ext": [".ivr"],
+    "fileSig": [0x2e, 0x52, 0x45, 0x43]
+  },
+
+  {
+    "description": "RealMedia streaming media",
+    "ext": [".rm", ".rmvb"],
+    "fileSig": [0x2e, 0x52, 0x4d, 0x46]
+  },
+
+  {
+    "description": "RealAudio file",
+    "ext": [".ra"],
+    "fileSig": [0x2e, 0x52, 0x4d, 0x46, 0x00, 0x00, 0x00, 0x12]
+  },
+
+  {
+    "description": "RealAudio streaming media",
+    "ext": [".ra"],
+    "fileSig": [0x2e, 0x72, 0x61, 0xfd, 0x00]
+  },
+
+  {
+    "description": "NeXT-Sun Microsystems audio file",
+    "ext": [".au"],
+    "fileSig": [0x2e, 0x73, 0x6e, 0x64]
+  },
+
+  {
+    "description": "Thunderbird-Mozilla Mail Summary File",
+    "ext": [".msf"],
+    "fileSig": [0x2f, 0x2f, 0x20, 0x3c, 0x21, 0x2d, 0x2d, 0x20, 0x3c, 0x6d, 0x64, 0x62, 0x3a, 0x6d, 0x6f, 0x72, 0x6b, 0x3a, 0x7a]
+  },
+
+  {
+    "description": "MS security catalog file",
+    "ext": [".cat"],
+    "fileSig": [0x30]
+  },
+
+  {
+    "description": "Windows Event Viewer file",
+    "ext": [".evt"],
+    "fileSig": [0x30, 0x00, 0x00, 0x00, 0x4c, 0x66, 0x4c, 0x65]
+  },
+
+  {
+    "description": "GEnealogical Data COMmunication (GEDCOM) file",
+    "ext": [".ged"],
+    "fileSig": [0x30, 0x20, 0x48, 0x45, 0x41, 0x44]
+  },
+
+  {
+    "description": "Windows Media Audio-Video File",
+    "ext": [".asf", ".wma", ".wmv"],
+    "fileSig": [0x30, 0x26, 0xb2, 0x75, 0x8e, 0x66, 0xcf, 0x11]
+  },
+
+  {
+    "description": "National Transfer Format Map",
+    "ext": [".ntf"],
+    "fileSig": [0x30, 0x31, 0x4f, 0x52, 0x44, 0x4e, 0x41, 0x4e]
+  },
+
+  {
+    "description": "cpio archive",
+    "ext": [".(none)"],
+    "fileSig": [0x30, 0x37, 0x30, 0x37, 0x30]
+  },
+
+  {
+    "description": "MS Write file_1",
+    "ext": [".wri"],
+    "fileSig": [0x31, 0xbe]
+  },
+
+  {
+    "description": "MS Write file_2",
+    "ext": [".wri"],
+    "fileSig": [0x32, 0xbe]
+  },
+
+  {
+    "description": "Pfaff Home Embroidery",
+    "ext": [".pcs"],
+    "fileSig": [0x32, 0x03, 0x10, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x80, 0x00, 0x00, 0x00, 0xff, 0x00]
+  },
+
+  {
+    "description": "Tcpdump capture file",
+    "ext": [".(none)"],
+    "fileSig": [0x34, 0xcd, 0xb2, 0xa1]
+  },
+
+  {
+    "description": "7-Zip compressed file",
+    "ext": [".7z"],
+    "fileSig": [0x37, 0x7a, 0xbc, 0xaf, 0x27, 0x1c]
+  },
+
+  {
+    "description": "zisofs compressed file",
+    "ext": [".(none)"],
+    "fileSig": [0x37, 0xe4, 0x53, 0x96, 0xc9, 0xdb, 0xd6, 0x07]
+  },
+
+  {
+    "description": "Photoshop image",
+    "ext": [".psd"],
+    "fileSig": [0x38, 0x42, 0x50, 0x53]
+  },
+
+  {
+    "description": "Surfplan kite project file",
+    "ext": [".sle"],
+    "fileSig": [0x3a, 0x56, 0x45, 0x52, 0x53, 0x49, 0x4f, 0x4e]
+  },
+
+  {
+    "description": "Advanced Stream Redirector",
+    "ext": [".asx"],
+    "fileSig": [0x3c]
+  },
+
+  {
+    "description": "BizTalk XML-Data Reduced Schema",
+    "ext": [".xdr"],
+    "fileSig": [0x3c]
+  },
+
+  {
+    "description": "AOL HTML mail",
+    "ext": [".dci"],
+    "fileSig": [0x3c, 0x21, 0x64, 0x6f, 0x63, 0x74, 0x79, 0x70]
+  },
+
+  {
+    "description": "Windows Script Component",
+    "ext": [".wsc"],
+    "fileSig": [0x3c, 0x3f]
+  },
+
+  {
+    "description": "Windows Visual Stylesheet",
+    "ext": [".manifest"],
+    "fileSig": [0x3c, 0x3f, 0x78, 0x6d, 0x6c, 0x20, 0x76, 0x65, 0x72, 0x73, 0x69, 0x6f, 0x6e, 0x3d]
+  },
+
+  {
+    "description": "User Interface Language",
+    "ext": [".xml"],
+    "fileSig": [0x3c, 0x3f, 0x78, 0x6d, 0x6c, 0x20, 0x76, 0x65, 0x72, 0x73, 0x69, 0x6f, 0x6e, 0x3d, 0x22, 0x31, 0x2e, 0x30, 0x22, 0x3f, 0x3e]
+  },
+
+  {
+    "description": "MMC Snap-in Control file",
+    "ext": [".msc"],
+    "fileSig": [0x3c, 0x3f, 0x78, 0x6d, 0x6c, 0x20, 0x76, 0x65, 0x72, 0x73, 0x69, 0x6f, 0x6e, 0x3d, 0x22, 0x31, 0x2e, 0x30, 0x22, 0x3f, 0x3e, 0x0d, 0x0a, 0x3c, 0x4d, 0x4d, 0x43, 0x5f, 0x43, 0x6f, 0x6e, 0x73, 0x6f, 0x6c, 0x65, 0x46, 0x69, 0x6c, 0x65, 0x20, 0x43, 0x6f, 0x6e, 0x73, 0x6f, 0x6c, 0x65, 0x56, 0x65, 0x72, 0x73, 0x69, 0x6f, 0x6e, 0x3d, 0x22]
+  },
+
+  {
+    "description": "Picasa movie project file",
+    "ext": [".mxf"],
+    "fileSig": [0x3c, 0x43, 0x54, 0x72, 0x61, 0x6e, 0x73, 0x54, 0x69, 0x6d, 0x65, 0x6c, 0x69, 0x6e, 0x65, 0x3e]
+  },
+
+  {
+    "description": "Csound music",
+    "ext": [".csd"],
+    "fileSig": [0x3c, 0x43, 0x73, 0x6f, 0x75, 0x6e, 0x64, 0x53, 0x79, 0x6e, 0x74, 0x68, 0x65, 0x73, 0x69, 0x7a]
+  },
+
+  {
+    "description": "Google Earth Keyhole Overlay file",
+    "ext": [".eta"],
+    "fileSig": [0x3c, 0x4b, 0x65, 0x79, 0x68, 0x6f, 0x6c, 0x65, 0x3e]
+  },
+
+  {
+    "description": "Adobe FrameMaker",
+    "ext": [".fm", ".mif"],
+    "fileSig": [0x3c, 0x4d, 0x61, 0x6b, 0x65, 0x72, 0x46, 0x69]
+  },
+
+  {
+    "description": "GPS Exchange (v1.1)",
+    "ext": [".gpx"],
+    "fileSig": [0x3c, 0x67, 0x70, 0x78, 0x20, 0x76, 0x65, 0x72, 0x73, 0x69, 0x6f, 0x6e, 0x3d, 0x22, 0x31, 0x2e]
+  },
+
+  {
+    "description": "BASE85 file",
+    "ext": [".b85"],
+    "fileSig": [0x3c, 0x7e, 0x36, 0x3c, 0x5c, 0x25, 0x5f, 0x30, 0x67, 0x53, 0x71, 0x68, 0x3b]
+  },
+
+  {
+    "description": "Quatro Pro for Windows 7.0",
+    "ext": [".wb3"],
+    "fileSig": [0x3e, 0x00, 0x03, 0x00, 0xfe, 0xff, 0x09, 0x00, 0x06]
+  },
+
+  {
+    "description": "Windows Help file_2",
+    "ext": [".gid", ".hlp"],
+    "fileSig": [0x3f, 0x5f, 0x03, 0x00]
+  },
+
+  {
+    "description": "EndNote Library File",
+    "ext": [".enl"],
+    "fileSig": [0x40, 0x40, 0x40, 0x20, 0x00, 0x00, 0x40, 0x40, 0x40, 0x40]
+  },
+
+  {
+    "description": "Analog Box (ABox) circuit files",
+    "ext": [".abox2"],
+    "fileSig": [0x41, 0x42, 0x6f, 0x78]
+  },
+
+  {
+    "description": "Generic AutoCAD drawing",
+    "ext": [".dwg"],
+    "fileSig": [0x41, 0x43, 0x31, 0x30]
+  },
+
+  {
+    "description": "Steganos virtual secure drive",
+    "ext": [".sle"],
+    "fileSig": [0x41, 0x43, 0x76]
+  },
+
+  {
+    "description": "AOL parameter-info files",
+    "ext": [".(none)"],
+    "fileSig": [0x41, 0x43, 0x53, 0x44]
+  },
+
+  {
+    "description": "Harvard Graphics symbol graphic",
+    "ext": [".syw"],
+    "fileSig": [0x41, 0x4d, 0x59, 0x4f]
+  },
+
+  {
+    "description": "AOL config files",
+    "ext": [".abi", ".aby", ".bag", ".idx", ".ind", ".pfc"],
+    "fileSig": [0x41, 0x4f, 0x4c]
+  },
+
+  {
+    "description": "AOL and AIM buddy list",
+    "ext": [".bag"],
+    "fileSig": [0x41, 0x4f, 0x4c, 0x20, 0x46, 0x65, 0x65, 0x64]
+  },
+
+  {
+    "description": "AOL address book",
+    "ext": [".aby"],
+    "fileSig": [0x41, 0x4f, 0x4c, 0x44, 0x42]
+  },
+
+  {
+    "description": "AOL user configuration",
+    "ext": [".idx"],
+    "fileSig": [0x41, 0x4f, 0x4c, 0x44, 0x42]
+  },
+
+  {
+    "description": "AOL client preferences-settings file",
+    "ext": [".ind"],
+    "fileSig": [0x41, 0x4f, 0x4c, 0x49, 0x44, 0x58]
+  },
+
+  {
+    "description": "AOL address book index",
+    "ext": [".abi"],
+    "fileSig": [0x41, 0x4f, 0x4c, 0x49, 0x4e, 0x44, 0x45, 0x58]
+  },
+
+  {
+    "description": "AOL personal file cabinet",
+    "ext": [".org", ".pfc"],
+    "fileSig": [0x41, 0x4f, 0x4c, 0x56, 0x4d, 0x31, 0x30, 0x30]
+  },
+
+  {
+    "description": "AVG6 Integrity database",
+    "ext": [".dat"],
+    "fileSig": [0x41, 0x56, 0x47, 0x36, 0x5f, 0x49, 0x6e, 0x74]
+  },
+
+  {
+    "description": "RIFF Windows Audio",
+    "ext": [".avi"],
+    "fileSig": [0x41, 0x56, 0x49, 0x20, 0x4c, 0x49, 0x53, 0x54]
+  },
+
+  {
+    "description": "FreeArc compressed file",
+    "ext": [".arc"],
+    "fileSig": [0x41, 0x72, 0x43, 0x01]
+  },
+
+  {
+    "description": "NTFS MFT (BAAD)",
+    "ext": [".(none)"],
+    "fileSig": [0x42, 0x41, 0x41, 0x44]
+  },
+
+  {
+    "description": "Google Chrome dictionary file",
+    "ext": [".bdic"],
+    "fileSig": [0x42, 0x44, 0x69, 0x63]
+  },
+
+  {
+    "description": "vCard",
+    "ext": [".vcf"],
+    "fileSig": [0x42, 0x45, 0x47, 0x49, 0x4e, 0x3a, 0x56, 0x43]
+  },
+
+  {
+    "description": "Speedtouch router firmware",
+    "ext": [".bin", ".bli", ".rbi"],
+    "fileSig": [0x42, 0x4c, 0x49, 0x32, 0x32, 0x33]
+  },
+
+  {
+    "description": "Bitmap image",
+    "ext": [".bmp", ".dib"],
+    "fileSig": [0x42, 0x4d]
+  },
+
+  {
+    "description": "Palmpilot resource file",
+    "ext": [".prc"],
+    "fileSig": [0x42, 0x4f, 0x4f, 0x4b, 0x4d, 0x4f, 0x42, 0x49]
+  },
+
+  {
+    "description": "Better Portable Graphics",
+    "ext": [".bpg"],
+    "fileSig": [0x42, 0x50, 0x47, 0xfb]
+  },
+
+  {
+    "description": "bzip2 compressed archive",
+    "ext": [".bz2", ".tar", ".bz2", ".tbz2", ".tb2"],
+    "fileSig": [0x42, 0x5a, 0x68]
+  },
+
+  {
+    "description": "Mac Disk image (BZ2 compressed)",
+    "ext": [".dmg"],
+    "fileSig": [0x42, 0x5a, 0x68]
+  },
+
+  {
+    "description": "Puffer ASCII encrypted archive",
+    "ext": [".apuf"],
+    "fileSig": [0x42, 0x65, 0x67, 0x69, 0x6e, 0x20, 0x50, 0x75, 0x66, 0x66, 0x65, 0x72]
+  },
+
+  {
+    "description": "Blink compressed archive",
+    "ext": [".bli"],
+    "fileSig": [0x42, 0x6c, 0x69, 0x6e, 0x6b]
+  },
+
+  {
+    "description": "RagTime document",
+    "ext": [".rtd"],
+    "fileSig": [0x43, 0x23, 0x2b, 0x44, 0xa4, 0x43, 0x4d, 0xa5]
+  },
+
+  {
+    "description": "EA Interchange Format File (IFF)_3",
+    "ext": [".iff"],
+    "fileSig": [0x43, 0x41, 0x54, 0x20]
+  },
+
+  {
+    "description": "WordPerfect dictionary",
+    "ext": [".cbd"],
+    "fileSig": [0x43, 0x42, 0x46, 0x49, 0x4c, 0x45]
+  },
+
+  {
+    "description": "ISO-9660 CD Disc Image",
+    "ext": [".iso"],
+    "fileSig": [0x43, 0x44, 0x30, 0x30, 0x31]
+  },
+
+  {
+    "description": "RIFF CD audio",
+    "ext": [".cda"],
+    "fileSig": [0x43, 0x44, 0x44, 0x41, 0x66, 0x6d, 0x74, 0x20]
+  },
+
+  {
+    "description": "Compressed ISO CD image",
+    "ext": [".cso"],
+    "fileSig": [0x43, 0x49, 0x53, 0x4f]
+  },
+
+  {
+    "description": "Windows 7 thumbnail",
+    "ext": [".db"],
+    "fileSig": [0x43, 0x4d, 0x4d, 0x4d, 0x15, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Corel Binary metafile",
+    "ext": [".clb"],
+    "fileSig": [0x43, 0x4d, 0x58, 0x31]
+  },
+
+  {
+    "description": "COM+ Catalog",
+    "ext": [".clb"],
+    "fileSig": [0x43, 0x4f, 0x4d, 0x2b]
+  },
+
+  {
+    "description": "VMware 3 Virtual Disk",
+    "ext": [".vmdk"],
+    "fileSig": [0x43, 0x4f, 0x57, 0x44]
+  },
+
+  {
+    "description": "Corel Photopaint file_1",
+    "ext": [".cpt"],
+    "fileSig": [0x43, 0x50, 0x54, 0x37, 0x46, 0x49, 0x4c, 0x45]
+  },
+
+  {
+    "description": "Corel Photopaint file_2",
+    "ext": [".cpt"],
+    "fileSig": [0x43, 0x50, 0x54, 0x46, 0x49, 0x4c, 0x45]
+  },
+
+  {
+    "description": "Win9x registry hive",
+    "ext": [".dat"],
+    "fileSig": [0x43, 0x52, 0x45, 0x47]
+  },
+
+  {
+    "description": "Crush compressed archive",
+    "ext": [".cru"],
+    "fileSig": [0x43, 0x52, 0x55, 0x53, 0x48, 0x20, 0x76]
+  },
+
+  {
+    "description": "Shockwave Flash file",
+    "ext": [".swf"],
+    "fileSig": [0x43, 0x57, 0x53]
+  },
+
+  {
+    "description": "Calculux Indoor lighting project file",
+    "ext": [".cin"],
+    "fileSig": [0x43, 0x61, 0x6c, 0x63, 0x75, 0x6c, 0x75, 0x78, 0x20, 0x49, 0x6e, 0x64, 0x6f, 0x6f, 0x72, 0x20]
+  },
+
+  {
+    "description": "WhereIsIt Catalog",
+    "ext": [".ctf"],
+    "fileSig": [0x43, 0x61, 0x74, 0x61, 0x6c, 0x6f, 0x67, 0x20]
+  },
+
+  {
+    "description": "IE History file",
+    "ext": [".dat"],
+    "fileSig": [0x43, 0x6c, 0x69, 0x65, 0x6e, 0x74, 0x20, 0x55]
+  },
+
+  {
+    "description": "Google Chrome Extension",
+    "ext": [".crx"],
+    "fileSig": [0x43, 0x72, 0x32, 0x34]
+  },
+
+  {
+    "description": "Google Chromium patch update",
+    "ext": [".crx"],
+    "fileSig": [0x43, 0x72, 0x4f, 0x44]
+  },
+
+  {
+    "description": "Creative Voice",
+    "ext": [".voc"],
+    "fileSig": [0x43, 0x72, 0x65, 0x61, 0x74, 0x69, 0x76, 0x65, 0x20, 0x56, 0x6f, 0x69, 0x63, 0x65, 0x20, 0x46]
+  },
+
+  {
+    "description": "PowerISO Direct-Access-Archive image",
+    "ext": [".daa"],
+    "fileSig": [0x44, 0x41, 0x41, 0x00, 0x00, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "DAX Compressed CD image",
+    "ext": [".dax"],
+    "fileSig": [0x44, 0x41, 0x58, 0x00]
+  },
+
+  {
+    "description": "Palm Zire photo database",
+    "ext": [".db"],
+    "fileSig": [0x44, 0x42, 0x46, 0x48]
+  },
+
+  {
+    "description": "Amiga DiskMasher compressed archive",
+    "ext": [".dms"],
+    "fileSig": [0x44, 0x4d, 0x53, 0x21]
+  },
+
+  {
+    "description": "Amiga disk file",
+    "ext": [".adf"],
+    "fileSig": [0x44, 0x4f, 0x53]
+  },
+
+  {
+    "description": "DST Compression",
+    "ext": [".dst"],
+    "fileSig": [0x44, 0x53, 0x54, 0x62]
+  },
+
+  {
+    "description": "DVR-Studio stream file",
+    "ext": [".dvr"],
+    "fileSig": [0x44, 0x56, 0x44]
+  },
+
+  {
+    "description": "DVD info file",
+    "ext": [".ifo"],
+    "fileSig": [0x44, 0x56, 0x44]
+  },
+
+  {
+    "description": "Elite Plus Commander game file",
+    "ext": [".cdr"],
+    "fileSig": [0x45, 0x4c, 0x49, 0x54, 0x45, 0x20, 0x43, 0x6f]
+  },
+
+  {
+    "description": "VideoVCD-VCDImager file",
+    "ext": [".vcd"],
+    "fileSig": [0x45, 0x4e, 0x54, 0x52, 0x59, 0x56, 0x43, 0x44]
+  },
+
+  {
+    "description": "Apple ISO 9660-HFS hybrid CD image",
+    "ext": [".iso"],
+    "fileSig": [0x45, 0x52, 0x02, 0x00, 0x00]
+  },
+
+  {
+    "description": "EasyRecovery Saved State file",
+    "ext": [".dat"],
+    "fileSig": [0x45, 0x52, 0x46, 0x53, 0x53, 0x41, 0x56, 0x45]
+  },
+
+  {
+    "description": "DSD Storage Facility audio file",
+    "ext": [".dsf"],
+    "fileSig": [0x44, 0x53, 0x44, 0x20]
+  },
+
+  {
+    "description": "MS Document Imaging file",
+    "ext": [".mdi"],
+    "fileSig": [0x45, 0x50]
+  },
+
+  {
+    "description": "Expert Witness Compression Format",
+    "ext": [".e01"],
+    "fileSig": [0x45, 0x56, 0x46, 0x09, 0x0d, 0x0a, 0xff, 0x00]
+  },
+
+  {
+    "description": "EnCase Evidence File Format V2",
+    "ext": [".ex01"],
+    "fileSig": [0x45, 0x56, 0x46, 0x32, 0x0d, 0x0a, 0x81]
+  },
+
+  {
+    "description": "Windows Vista event log",
+    "ext": [".evtx"],
+    "fileSig": [0x45, 0x6c, 0x66, 0x46, 0x69, 0x6c, 0x65, 0x00]
+  },
+
+  {
+    "description": "QuickBooks backup",
+    "ext": [".qbb"],
+    "fileSig": [0x45, 0x86, 0x00, 0x00, 0x06, 0x00]
+  },
+
+  {
+    "description": "MS Fax Cover Sheet",
+    "ext": [".cpe"],
+    "fileSig": [0x46, 0x41, 0x58, 0x43, 0x4f, 0x56, 0x45, 0x52]
+  },
+
+  {
+    "description": "Fiasco database definition file",
+    "ext": [".fdb"],
+    "fileSig": [0x46, 0x44, 0x42, 0x48, 0x00]
+  },
+
+  {
+    "description": "NTFS MFT (FILE)",
+    "ext": [".(none)"],
+    "fileSig": [0x46, 0x49, 0x4c, 0x45]
+  },
+
+  {
+    "description": "Flash video file",
+    "ext": [".flv"],
+    "fileSig": [0x46, 0x4c, 0x56]
+  },
+
+  {
+    "description": "IFF ANIM file",
+    "ext": [".anm"],
+    "fileSig": [0x46, 0x4f, 0x52, 0x4d]
+  },
+
+  {
+    "description": "EA Interchange Format File (IFF)_1",
+    "ext": [".iff"],
+    "fileSig": [0x46, 0x4f, 0x52, 0x4d]
+  },
+
+  {
+    "description": "Audio Interchange File",
+    "ext": [".aiff"],
+    "fileSig": [0x46, 0x4f, 0x52, 0x4d, 0x00]
+  },
+
+  {
+    "description": "DAKX Compressed Audio",
+    "ext": [".dax"],
+    "fileSig": [0x46, 0x4f, 0x52, 0x4d, 0x00]
+  },
+
+  {
+    "description": "Shockwave Flash player",
+    "ext": [".swf"],
+    "fileSig": [0x46, 0x57, 0x53]
+  },
+
+  {
+    "description": "Generic e-mail_2",
+    "ext": [".eml"],
+    "fileSig": [0x46, 0x72, 0x6f, 0x6d]
+  },
+
+  {
+    "description": "GIF file",
+    "ext": [".gif"],
+    "fileSig": [0x47, 0x49, 0x46, 0x38]
+  },
+
+  {
+    "description": "GIMP pattern file",
+    "ext": [".pat"],
+    "fileSig": [0x47, 0x50, 0x41, 0x54]
+  },
+
+  {
+    "description": "General Regularly-distributed Information (GRIdded) Binary",
+    "ext": [".grb"],
+    "fileSig": [0x47, 0x52, 0x49, 0x42]
+  },
+
+  {
+    "description": "Show Partner graphics file",
+    "ext": [".gx2"],
+    "fileSig": [0x47, 0x58, 0x32]
+  },
+
+  {
+    "description": "Genetec video archive",
+    "ext": [".g64"],
+    "fileSig": [0x47, 0x65, 0x6e, 0x65, 0x74, 0x65, 0x63, 0x20, 0x4f, 0x6d, 0x6e, 0x69, 0x63, 0x61, 0x73, 0x74]
+  },
+
+  {
+    "description": "SAP PowerBuilder integrated development environment file",
+    "ext": [".pbd"],
+    "fileSig": [0x48, 0x44, 0x52, 0x2a, 0x50, 0x6f, 0x77, 0x65, 0x72, 0x42, 0x75, 0x69, 0x6c, 0x64, 0x65, 0x72]
+  },
+
+  {
+    "description": "SAS Transport dataset",
+    "ext": [".xpt"],
+    "fileSig": [0x48, 0x45, 0x41, 0x44, 0x45, 0x52, 0x20, 0x52, 0x45, 0x43, 0x4f, 0x52, 0x44, 0x2a, 0x2a, 0x2a]
+  },
+
+  {
+    "description": "Harvard Graphics presentation file",
+    "ext": [".sh3"],
+    "fileSig": [0x48, 0x48, 0x47, 0x42, 0x31]
+  },
+
+  {
+    "description": "TIFF file_1",
+    "ext": [".tif", ".tiff"],
+    "fileSig": [0x49, 0x20, 0x49]
+  },
+
+  {
+    "description": "MP3 audio file",
+    "ext": [".mp3"],
+    "fileSig": [0x49, 0x44, 0x33]
+  },
+
+  {
+    "description": "Sprint Music Store audio",
+    "ext": [".koz"],
+    "fileSig": [0x49, 0x44, 0x33, 0x03, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Canon RAW file",
+    "ext": [".crw"],
+    "fileSig": [0x49, 0x49, 0x1a, 0x00, 0x00, 0x00, 0x48, 0x45]
+  },
+
+  {
+    "description": "TIFF file_2",
+    "ext": [".tif", ".tiff"],
+    "fileSig": [0x49, 0x49, 0x2a, 0x00]
+  },
+
+  {
+    "description": "Windows 7 thumbnail_2",
+    "ext": [".db"],
+    "fileSig": [0x49, 0x4d, 0x4d, 0x4d, 0x15, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Install Shield compressed file",
+    "ext": [".cab", ".hdr"],
+    "fileSig": [0x49, 0x53, 0x63, 0x28]
+  },
+
+  {
+    "description": "MS Reader eBook",
+    "ext": [".lit"],
+    "fileSig": [0x49, 0x54, 0x4f, 0x4c, 0x49, 0x54, 0x4c, 0x53]
+  },
+
+  {
+    "description": "MS Compiled HTML Help File",
+    "ext": [".chi", ".chm"],
+    "fileSig": [0x49, 0x54, 0x53, 0x46]
+  },
+
+  {
+    "description": "Inno Setup Uninstall Log",
+    "ext": [".dat"],
+    "fileSig": [0x49, 0x6e, 0x6e, 0x6f, 0x20, 0x53, 0x65, 0x74]
+  },
+
+  {
+    "description": "Inter@ctive Pager Backup (BlackBerry file",
+    "ext": [".ipd"],
+    "fileSig": [0x49, 0x6e, 0x74, 0x65, 0x72, 0x40, 0x63, 0x74, 0x69, 0x76, 0x65, 0x20, 0x50, 0x61, 0x67, 0x65]
+  },
+
+  {
+    "description": "JARCS compressed archive",
+    "ext": [".jar"],
+    "fileSig": [0x4a, 0x41, 0x52, 0x43, 0x53, 0x00]
+  },
+
+  {
+    "description": "AOL ART file_1",
+    "ext": [".jg"],
+    "fileSig": [0x4a, 0x47, 0x03, 0x0e]
+  },
+
+  {
+    "description": "AOL ART file_2",
+    "ext": [".jg"],
+    "fileSig": [0x4a, 0x47, 0x04, 0x0e]
+  },
+
+  {
+    "description": "VMware 4 Virtual Disk",
+    "ext": [".vmdk"],
+    "fileSig": [0x4b, 0x44, 0x4d]
+  },
+
+  {
+    "description": "KGB archive",
+    "ext": [".kgb"],
+    "fileSig": [0x4b, 0x47, 0x42, 0x5f, 0x61, 0x72, 0x63, 0x68]
+  },
+
+  {
+    "description": "Win9x printer spool file",
+    "ext": [".shd"],
+    "fileSig": [0x4b, 0x49, 0x00, 0x00]
+  },
+
+  {
+    "description": "KWAJ (compressed) file",
+    "ext": [".(none)"],
+    "fileSig": [0x4b, 0x57, 0x41, 0x4a, 0x88, 0xf0, 0x27, 0xd1]
+  },
+
+  {
+    "description": "Windows shortcut file",
+    "ext": [".lnk"],
+    "fileSig": [0x4c, 0x00, 0x00, 0x00, 0x01, 0x14, 0x02, 0x00]
+  },
+
+  {
+    "description": "MS COFF relocatable object code",
+    "ext": [".obj"],
+    "fileSig": [0x4c, 0x01]
+  },
+
+  {
+    "description": "Tajima emboridery",
+    "ext": [".dst"],
+    "fileSig": [0x4c, 0x41, 0x3a]
+  },
+
+  {
+    "description": "Windows help file_3",
+    "ext": [".gid", ".hlp"],
+    "fileSig": [0x4c, 0x4e, 0x02, 0x00]
+  },
+
+  {
+    "description": "EA Interchange Format File (IFF)_2",
+    "ext": [".iff"],
+    "fileSig": [0x4c, 0x49, 0x53, 0x54]
+  },
+
+  {
+    "description": "DeluxePaint Animation",
+    "ext": [".anm"],
+    "fileSig": [0x4c, 0x50, 0x46, 0x20, 0x00, 0x01]
+  },
+
+  {
+    "description": "Logical File Evidence Format",
+    "ext": [".e01"],
+    "fileSig": [0x4c, 0x56, 0x46, 0x09, 0x0d, 0x0a, 0xff, 0x00]
+  },
+
+  {
+    "description": "Merriam-Webster Pocket Dictionary",
+    "ext": [".pdb"],
+    "fileSig": [0x4d, 0x2d, 0x57, 0x20, 0x50, 0x6f, 0x63, 0x6b]
+  },
+
+  {
+    "description": "Mozilla archive",
+    "ext": [".mar"],
+    "fileSig": [0x4d, 0x41, 0x52, 0x31, 0x00]
+  },
+
+  {
+    "description": "Microsoft-MSN MARC archive",
+    "ext": [".mar"],
+    "fileSig": [0x4d, 0x41, 0x52, 0x43]
+  },
+
+  {
+    "description": "MATLAB v5 workspace",
+    "ext": [".mat"],
+    "fileSig": [0x4d, 0x41, 0x54, 0x4c, 0x41, 0x42, 0x20, 0x35, 0x2e, 0x30, 0x20, 0x4d, 0x41, 0x54, 0x2d, 0x66, 0x69, 0x6c, 0x65]
+  },
+
+  {
+    "description": "MAr compressed archive",
+    "ext": [".mar"],
+    "fileSig": [0x4d, 0x41, 0x72, 0x30, 0x00]
+  },
+
+  {
+    "description": "TargetExpress target file",
+    "ext": [".mte"],
+    "fileSig": [0x4d, 0x43, 0x57, 0x20, 0x54, 0x65, 0x63, 0x68, 0x6e, 0x6f, 0x67, 0x6f, 0x6c, 0x69, 0x65, 0x73]
+  },
+
+  {
+    "description": "Windows dump file",
+    "ext": [".dmp", ".hdmp"],
+    "fileSig": [0x4d, 0x44, 0x4d, 0x50, 0x93, 0xa7]
+  },
+
+  {
+    "description": "Milestones project management file",
+    "ext": [".mls"],
+    "fileSig": [0x4d, 0x49, 0x4c, 0x45, 0x53]
+  },
+
+  {
+    "description": "Skype localization data file",
+    "ext": [".mls"],
+    "fileSig": [0x4d, 0x4c, 0x53, 0x57]
+  },
+
+  {
+    "description": "TIFF file_3",
+    "ext": [".tif", ".tiff"],
+    "fileSig": [0x4d, 0x4d, 0x00, 0x2a]
+  },
+
+  {
+    "description": "TIFF file_4",
+    "ext": [".tif", ".tiff"],
+    "fileSig": [0x4d, 0x4d, 0x00, 0x2b]
+  },
+
+  {
+    "description": "Yamaha Synthetic music Mobile Application Format",
+    "ext": [".mmf"],
+    "fileSig": [0x4d, 0x4d, 0x4d, 0x44, 0x00, 0x00]
+  },
+
+  {
+    "description": "VMware BIOS state file",
+    "ext": [".nvram"],
+    "fileSig": [0x4d, 0x52, 0x56, 0x4e]
+  },
+
+  {
+    "description": "Microsoft cabinet file",
+    "ext": [".cab"],
+    "fileSig": [0x4d, 0x53, 0x43, 0x46]
+  },
+
+  {
+    "description": "OneNote Package",
+    "ext": [".onepkg"],
+    "fileSig": [0x4d, 0x53, 0x43, 0x46]
+  },
+
+  {
+    "description": "Powerpoint Packaged Presentation",
+    "ext": [".ppz"],
+    "fileSig": [0x4d, 0x53, 0x43, 0x46]
+  },
+
+  {
+    "description": "MS Access Snapshot Viewer file",
+    "ext": [".snp"],
+    "fileSig": [0x4d, 0x53, 0x43, 0x46]
+  },
+
+  {
+    "description": "OLE-SPSS-Visual C++ library file",
+    "ext": [".tlb"],
+    "fileSig": [0x4d, 0x53, 0x46, 0x54, 0x02, 0x00, 0x01, 0x00]
+  },
+
+  {
+    "description": "Health Level-7 data (pipe delimited) file",
+    "ext": [".hl7"],
+    "fileSig": [0x0d, 0x53, 0x48, 0x7c, 0x5e, 0x7e, 0x5c, 0x26, 0x7c]
+  },
+
+  {
+    "description": "Microsoft Windows Imaging Format",
+    "ext": [".wim"],
+    "fileSig": [0x4d, 0x53, 0x57, 0x49, 0x4d]
+  },
+
+  {
+    "description": "Sony Compressed Voice File",
+    "ext": [".cdr", ".dvf", ".msv"],
+    "fileSig": [0x4d, 0x53, 0x5f, 0x56, 0x4f, 0x49, 0x43, 0x45]
+  },
+
+  {
+    "description": "MIDI sound file",
+    "ext": [".mid", ".midi"],
+    "fileSig": [0x4d, 0x54, 0x68, 0x64]
+  },
+
+  {
+    "description": "Yamaha Piano",
+    "ext": [".pcs"],
+    "fileSig": [0x4d, 0x54, 0x68, 0x64]
+  },
+
+  {
+    "description": "CD Stomper Pro label file",
+    "ext": [".dsn"],
+    "fileSig": [0x4d, 0x56]
+  },
+
+  {
+    "description": "Milestones project management file_1",
+    "ext": [".mls"],
+    "fileSig": [0x4d, 0x56, 0x32, 0x31, 0x34]
+  },
+
+  {
+    "description": "Milestones project management file_2",
+    "ext": [".mls"],
+    "fileSig": [0x4d, 0x56, 0x32, 0x43]
+  },
+
+  {
+    "description": "Windows-DOS executable file",
+    "ext": [".com", ".dll", ".drv", ".exe", ".pif", ".qts", ".qtx", ".sys"],
+    "fileSig": [0x4d, 0x5a]
+  },
+
+  {
+    "description": "MS audio compression manager driver",
+    "ext": [".acm"],
+    "fileSig": [0x4d, 0x5a]
+  },
+
+  {
+    "description": "Library cache file",
+    "ext": [".ax"],
+    "fileSig": [0x4d, 0x5a]
+  },
+
+  {
+    "description": "Control panel application",
+    "ext": [".cpl"],
+    "fileSig": [0x4d, 0x5a]
+  },
+
+  {
+    "description": "Font file",
+    "ext": [".fon"],
+    "fileSig": [0x4d, 0x5a]
+  },
+
+  {
+    "description": "ActiveX-OLE Custom Control",
+    "ext": [".ocx"],
+    "fileSig": [0x4d, 0x5a]
+  },
+
+  {
+    "description": "OLE object library",
+    "ext": [".olb"],
+    "fileSig": [0x4d, 0x5a]
+  },
+
+  {
+    "description": "Screen saver",
+    "ext": [".scr"],
+    "fileSig": [0x4d, 0x5a]
+  },
+
+  {
+    "description": "VisualBASIC application",
+    "ext": [".vbx"],
+    "fileSig": [0x4d, 0x5a]
+  },
+
+  {
+    "description": "Windows virtual device drivers",
+    "ext": [".vxd", ".386"],
+    "fileSig": [0x4d, 0x5a]
+  },
+
+  {
+    "description": "Acrobat plug-in",
+    "ext": [".api"],
+    "fileSig": [0x4d, 0x5a, 0x90, 0x00, 0x03, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "DirectShow filter",
+    "ext": [".ax"],
+    "fileSig": [0x4d, 0x5a, 0x90, 0x00, 0x03, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Audition graphic filter",
+    "ext": [".flt"],
+    "fileSig": [0x4d, 0x5a, 0x90, 0x00, 0x03, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "ZoneAlam data file",
+    "ext": [".zap"],
+    "fileSig": [0x4d, 0x5a, 0x90, 0x00, 0x03, 0x00, 0x00, 0x00, 0x04, 0x00, 0x00, 0x00, 0xff, 0xff]
+  },
+
+  {
+    "description": "MS C++ debugging symbols file",
+    "ext": [".pdb"],
+    "fileSig": [0x4d, 0x69, 0x63, 0x72, 0x6f, 0x73, 0x6f, 0x66, 0x74, 0x20, 0x43, 0x2f, 0x43, 0x2b, 0x2b, 0x20]
+  },
+
+  {
+    "description": "Visual Studio .NET file",
+    "ext": [".sln"],
+    "fileSig": [0x4d, 0x69, 0x63, 0x72, 0x6f, 0x73, 0x6f, 0x66, 0x74, 0x20, 0x56, 0x69, 0x73, 0x75, 0x61, 0x6c]
+  },
+
+  {
+    "description": "Windows Media Player playlist",
+    "ext": [".wpl"],
+    "fileSig": [0x4d, 0x69, 0x63, 0x72, 0x6f, 0x73, 0x6f, 0x66, 0x74, 0x20, 0x57, 0x69, 0x6e, 0x64, 0x6f, 0x77, 0x73, 0x20, 0x4d, 0x65, 0x64, 0x69, 0x61, 0x20, 0x50, 0x6c, 0x61, 0x79, 0x65, 0x72, 0x20, 0x2d, 0x2d, 0x20]
+  },
+
+  {
+    "description": "VMapSource GPS Waypoint Database",
+    "ext": [".gdb"],
+    "fileSig": [0x4d, 0x73, 0x52, 0x63, 0x66]
+  },
+
+  {
+    "description": "TomTom traffic data",
+    "ext": [".dat"],
+    "fileSig": [0x4e, 0x41, 0x56, 0x54, 0x52, 0x41, 0x46, 0x46]
+  },
+
+  {
+    "description": "MS Windows journal",
+    "ext": [".jnt", ".jtp"],
+    "fileSig": [0x4e, 0x42, 0x2a, 0x00]
+  },
+
+  {
+    "description": "NES Sound file",
+    "ext": [".nsf"],
+    "fileSig": [0x4e, 0x45, 0x53, 0x4d, 0x1a, 0x01]
+  },
+
+  {
+    "description": "National Imagery Transmission Format file",
+    "ext": [".ntf"],
+    "fileSig": [0x4e, 0x49, 0x54, 0x46, 0x30]
+  },
+
+  {
+    "description": "Agent newsreader character map",
+    "ext": [".cod"],
+    "fileSig": [0x4e, 0x61, 0x6d, 0x65, 0x3a, 0x20]
+  },
+
+  {
+    "description": "1Password 4 Cloud Keychain",
+    "ext": [".attachment"],
+    "fileSig": [0x4f, 0x50, 0x43, 0x4c, 0x44, 0x41, 0x54]
+  },
+
+  {
+    "description": "Psion Series 3 Database",
+    "ext": [".dbf"],
+    "fileSig": [0x4f, 0x50, 0x4c, 0x44, 0x61, 0x74, 0x61, 0x62]
+  },
+
+  {
+    "description": "OpenType font",
+    "ext": [".otf"],
+    "fileSig": [0x4f, 0x54, 0x54, 0x4f, 0x00]
+  },
+
+  {
+    "description": "Ogg Vorbis Codec compressed file",
+    "ext": [".oga", ".ogg", ".ogv", ".ogx"],
+    "fileSig": [0x4f, 0x67, 0x67, 0x53, 0x00, 0x02, 0x00, 0x00]
+  },
+
+  {
+    "description": "Visio-DisplayWrite 4 text file",
+    "ext": [".dw4"],
+    "fileSig": [0x4f, 0x7b]
+  },
+
+  {
+    "description": "Quicken QuickFinder Information File",
+    "ext": [".idx"],
+    "fileSig": [0x50, 0x00, 0x00, 0x00, 0x20, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Portable Graymap Graphic",
+    "ext": [".pgm"],
+    "fileSig": [0x50, 0x35, 0x0a]
+  },
+
+  {
+    "description": "Quake archive file",
+    "ext": [".pak"],
+    "fileSig": [0x50, 0x41, 0x43, 0x4b]
+  },
+
+  {
+    "description": "Windows memory dump",
+    "ext": [".dmp"],
+    "fileSig": [0x50, 0x41, 0x47, 0x45, 0x44, 0x55]
+  },
+
+  {
+    "description": "PAX password protected bitmap",
+    "ext": [".pax"],
+    "fileSig": [0x50, 0x41, 0x58]
+  },
+
+  {
+    "description": "PestPatrol data-scan strings",
+    "ext": [".dat"],
+    "fileSig": [0x50, 0x45, 0x53, 0x54]
+  },
+
+  {
+    "description": "PGP disk image",
+    "ext": [".pgd"],
+    "fileSig": [0x50, 0x47, 0x50, 0x64, 0x4d, 0x41, 0x49, 0x4e]
+  },
+
+  {
+    "description": "ChromaGraph Graphics Card Bitmap",
+    "ext": [".img"],
+    "fileSig": [0x50, 0x49, 0x43, 0x54, 0x00, 0x08]
+  },
+
+  {
+    "description": "PKZIP archive_1",
+    "ext": [".zip"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04]
+  },
+
+  {
+    "description": "Android package",
+    "ext": [".apk"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04]
+  },
+
+  {
+    "description": "MacOS X Dashboard Widget",
+    "ext": [".zip"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04]
+  },
+
+  {
+    "description": "MS Office Open XML Format Document",
+    "ext": [".docx", ".pptx", ".xlsx"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04]
+  },
+
+  {
+    "description": "Java archive_1",
+    "ext": [".jar"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04]
+  },
+
+  {
+    "description": "Google Earth session file",
+    "ext": [".kmz"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04]
+  },
+
+  {
+    "description": "KWord document",
+    "ext": [".kwd"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04]
+  },
+
+  {
+    "description": "OpenDocument template",
+    "ext": [".odt",".odp", ".ott"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04]
+  },
+
+  {
+    "description": "Microsoft Open XML paper specification",
+    "ext": [".oxps"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04]
+  },
+
+  {
+    "description": "OpenOffice documents",
+    "ext": [".sxc", ".sxd", ".sxi", ".sxw"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04]
+  },
+
+  {
+    "description": "StarOffice spreadsheet",
+    "ext": [".sxc"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04]
+  },
+
+  {
+    "description": "Windows Media compressed skin file",
+    "ext": [".wmz"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04]
+  },
+
+  {
+    "description": "Mozilla Browser Archive",
+    "ext": [".xpi"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04]
+  },
+
+  {
+    "description": "XML paper specification file",
+    "ext": [".xps"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04]
+  },
+
+  {
+    "description": "eXact Packager Models",
+    "ext": [".xpt"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04]
+  },
+
+  {
+    "description": "Open Publication Structure eBook",
+    "ext": [".epub"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04, 0x0a, 0x00, 0x02, 0x00]
+  },
+
+  {
+    "description": "ZLock Pro encrypted ZIP",
+    "ext": [".zip"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04, 0x14, 0x00, 0x01, 0x00]
+  },
+
+  {
+    "description": "MS Office 2007 documents",
+    "ext": [".docx", ".pptx", ".xlsx"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04, 0x14, 0x00, 0x06, 0x00]
+  },
+
+  {
+    "description": "Java archive_2",
+    "ext": [".jar"],
+    "fileSig": [0x50, 0x4b, 0x03, 0x04, 0x14, 0x00, 0x08, 0x00]
+  },
+
+  {
+    "description": "PKZIP archive_2",
+    "ext": [".zip"],
+    "fileSig": [0x50, 0x4b, 0x05, 0x06]
+  },
+
+  {
+    "description": "PKZIP archive_3",
+    "ext": [".zip"],
+    "fileSig": [0x50, 0x4b, 0x07, 0x08]
+  },
+
+  {
+    "description": "PKLITE archive",
+    "ext": [".zip"],
+    "fileSig": [0x50, 0x4b, 0x4c, 0x49, 0x54, 0x45]
+  },
+
+  {
+    "description": "PKSFX self-extracting archive",
+    "ext": [".zip"],
+    "fileSig": [0x50, 0x4b, 0x53, 0x70, 0x58]
+  },
+
+  {
+    "description": "Windows Program Manager group file",
+    "ext": [".grp"],
+    "fileSig": [0x50, 0x4d, 0x43, 0x43]
+  },
+
+  {
+    "description": "Norton Disk Doctor undo file",
+    "ext": [".dat"],
+    "fileSig": [0x50, 0x4e, 0x43, 0x49, 0x55, 0x4e, 0x44, 0x4f]
+  },
+
+  {
+    "description": "Microsoft Windows User State Migration Tool",
+    "ext": [".pmoccmoc"],
+    "fileSig": [0x50, 0x4d, 0x4f, 0x43, 0x43, 0x4d, 0x4f, 0x43]
+  },
+
+  {
+    "description": "Dreamcast Sound Format",
+    "ext": [".dsf"],
+    "fileSig": [0x50, 0x53, 0x46, 0x12]
+  },
+
+  {
+    "description": "Puffer encrypted archive",
+    "ext": [".puf"],
+    "fileSig": [0x50, 0x55, 0x46, 0x58]
+  },
+
+  {
+    "description": "Parrot Video Encapsulation",
+    "ext": [".(none)"],
+    "fileSig": [0x50, 0x61, 0x56, 0x45]
+  },
+
+  {
+    "description": "Quicken data",
+    "ext": [".qel"],
+    "fileSig": [0x51, 0x45, 0x4c, 0x20]
+  },
+
+  {
+    "description": "Qcow Disk Image",
+    "ext": [".qemu"],
+    "fileSig": [0x51, 0x46, 0x49]
+  },
+
+  {
+    "description": "RIFF Qualcomm PureVoice",
+    "ext": [".qcp"],
+    "fileSig": [0x51, 0x4c, 0x43, 0x4d, 0x66, 0x6d, 0x74, 0x20]
+  },
+
+  {
+    "description": "Quicken data file",
+    "ext": [".abd", ".qsd"],
+    "fileSig": [0x51, 0x57, 0x20, 0x56, 0x65, 0x72, 0x2e, 0x20]
+  },
+
+  {
+    "description": "Outlook-Exchange message subheader",
+    "ext": [".msg"],
+    "fileSig": [0x52, 0x00, 0x6f, 0x00, 0x6f, 0x00, 0x74, 0x00, 0x20, 0x00, 0x45, 0x00, 0x6e, 0x00, 0x74, 0x00, 0x72, 0x00, 0x79, 0x00]
+  },
+
+  {
+    "description": "Shareaza (P2P) thumbnail",
+    "ext": [".dat"],
+    "fileSig": [0x52, 0x41, 0x5a, 0x41, 0x54, 0x44, 0x42, 0x31]
+  },
+
+  {
+    "description": "R saved work space",
+    "ext": [".rdata"],
+    "fileSig": [0x52, 0x44, 0x58, 0x32, 0x0a]
+  },
+
+  {
+    "description": "WinNT Registry-Registry Undo files",
+    "ext": [".reg", ".sud"],
+    "fileSig": [0x52, 0x45, 0x47, 0x45, 0x44, 0x49, 0x54]
+  },
+
+  {
+    "description": "Antenna data file",
+    "ext": [".ad"],
+    "fileSig": [0x52, 0x45, 0x56, 0x4e, 0x55, 0x4d, 0x3a, 0x2c]
+  },
+
+  {
+    "description": "Windows animated cursor",
+    "ext": [".ani"],
+    "fileSig": [0x52, 0x49, 0x46, 0x46]
+  },
+
+  {
+    "description": "Corel Presentation Exchange metadata",
+    "ext": [".cmx"],
+    "fileSig": [0x52, 0x49, 0x46, 0x46]
+  },
+
+  {
+    "description": "CorelDraw document",
+    "ext": [".cdr"],
+    "fileSig": [0x52, 0x49, 0x46, 0x46]
+  },
+
+  {
+    "description": "Video CD MPEG movie",
+    "ext": [".dat"],
+    "fileSig": [0x52, 0x49, 0x46, 0x46]
+  },
+
+  {
+    "description": "Micrografx Designer graphic",
+    "ext": [".ds4"],
+    "fileSig": [0x52, 0x49, 0x46, 0x46]
+  },
+
+  {
+    "description": "4X Movie video",
+    "ext": [".4xm"],
+    "fileSig": [0x52, 0x49, 0x46, 0x46]
+  },
+
+  {
+    "description": "Resource Interchange File Format",
+    "ext": [".avi", ".cda", ".qcp", ".rmi", ".wav", ".webp"],
+    "fileSig": [0x52, 0x49, 0x46, 0x46]
+  },
+
+  {
+    "description": "RIFF Windows MIDI",
+    "ext": [".rmi"],
+    "fileSig": [0x52, 0x4d, 0x49, 0x44, 0x64, 0x61, 0x74, 0x61]
+  },
+
+  {
+    "description": "WinNT Netmon capture file",
+    "ext": [".cap"],
+    "fileSig": [0x52, 0x54, 0x53, 0x53]
+  },
+
+  {
+    "description": "WinRAR compressed archive",
+    "ext": [".rar"],
+    "fileSig": [0x52, 0x61, 0x72, 0x21, 0x1a, 0x07, 0x00]
+  },
+
+  {
+    "description": "Generic e-mail_1",
+    "ext": [".eml"],
+    "fileSig": [0x52, 0x65, 0x74, 0x75, 0x72, 0x6e, 0x2d, 0x50]
+  },
+
+  {
+    "description": "Windows prefetch",
+    "ext": [".pf"],
+    "fileSig": [0x53, 0x43, 0x43, 0x41]
+  },
+
+  {
+    "description": "Underground Audio",
+    "ext": [".ast"],
+    "fileSig": [0x53, 0x43, 0x48, 0x6c]
+  },
+
+  {
+    "description": "Img Software Bitmap",
+    "ext": [".img"],
+    "fileSig": [0x53, 0x43, 0x4d, 0x49]
+  },
+
+  {
+    "description": "SMPTE DPX (big endian)",
+    "ext": [".sdpx"],
+    "fileSig": [0x53, 0x44, 0x50, 0x58]
+  },
+
+  {
+    "description": "Harvard Graphics presentation",
+    "ext": [".shw"],
+    "fileSig": [0x53, 0x48, 0x4f, 0x57]
+  },
+
+  {
+    "description": "Sietronics CPI XRD document",
+    "ext": [".cpi"],
+    "fileSig": [0x53, 0x49, 0x45, 0x54, 0x52, 0x4f, 0x4e, 0x49]
+  },
+
+  {
+    "description": "Flexible Image Transport System (FITS) file",
+    "ext": [".fits"],
+    "fileSig": [0x53, 0x49, 0x4d, 0x50, 0x4c, 0x45, 0x20, 0x20, 0x3d, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x54]
+  },
+
+  {
+    "description": "StuffIt archive",
+    "ext": [".sit"],
+    "fileSig": [0x53, 0x49, 0x54, 0x21, 0x00]
+  },
+
+  {
+    "description": "SmartDraw Drawing file",
+    "ext": [".sdr"],
+    "fileSig": [0x53, 0x4d, 0x41, 0x52, 0x54, 0x44, 0x52, 0x57]
+  },
+
+  {
+    "description": "StorageCraft ShadownProtect backup file",
+    "ext": [".spf"],
+    "fileSig": [0x53, 0x50, 0x46, 0x49, 0x00]
+  },
+
+  {
+    "description": "MultiBit Bitcoin blockchain file",
+    "ext": [".spvb"],
+    "fileSig": [0x53, 0x50, 0x56, 0x42]
+  },
+
+  {
+    "description": "SQLite database file",
+    "ext": [".db"],
+    "fileSig": [0x53, 0x51, 0x4c, 0x69, 0x74, 0x65, 0x20, 0x66, 0x6f, 0x72, 0x6d, 0x61, 0x74, 0x20, 0x33, 0x00]
+  },
+
+  {
+    "description": "DB2 conversion file",
+    "ext": [".cnv"],
+    "fileSig": [0x53, 0x51, 0x4c, 0x4f, 0x43, 0x4f, 0x4e, 0x56]
+  },
+
+  {
+    "description": "QBASIC SZDD file",
+    "ext": [".(none)"],
+    "fileSig": [0x53, 0x5a, 0x20, 0x88, 0xf0, 0x27, 0x33, 0xd1]
+  },
+
+  {
+    "description": "SZDD file format",
+    "ext": [".(none)"],
+    "fileSig": [0x53, 0x5a, 0x44, 0x44, 0x88, 0xf0, 0x27, 0x33]
+  },
+
+  {
+    "description": "StuffIt compressed archive",
+    "ext": [".sit"],
+    "fileSig": [0x53, 0x74, 0x75, 0x66, 0x66, 0x49, 0x74, 0x20]
+  },
+
+  {
+    "description": "SuperCalc worksheet",
+    "ext": [".cal"],
+    "fileSig": [0x53, 0x75, 0x70, 0x65, 0x72, 0x43, 0x61, 0x6c]
+  },
+
+  {
+    "description": "Wii-GameCube",
+    "ext": [".thp"],
+    "fileSig": [0x54, 0x48, 0x50, 0x00]
+  },
+
+  {
+    "description": "GNU Info Reader file",
+    "ext": [".info"],
+    "fileSig": [0x54, 0x68, 0x69, 0x73, 0x20, 0x69, 0x73, 0x20]
+  },
+
+  {
+    "description": "Unicode extensions",
+    "ext": [".uce"],
+    "fileSig": [0x55, 0x43, 0x45, 0x58]
+  },
+
+  {
+    "description": "UFA compressed archive",
+    "ext": [".ufa"],
+    "fileSig": [0x55, 0x46, 0x41, 0xc6, 0xd2, 0xc1]
+  },
+
+  {
+    "description": "UFO Capture map file",
+    "ext": [".dat"],
+    "fileSig": [0x55, 0x46, 0x4f, 0x4f, 0x72, 0x62, 0x69, 0x74]
+  },
+
+  {
+    "description": "Measurement Data Format file",
+    "ext": [".mf4"],
+    "fileSig": [0x55, 0x6e, 0x46, 0x69, 0x6e, 0x4d, 0x46]
+  },
+
+  {
+    "description": "Visual C PreCompiled header",
+    "ext": [".pch"],
+    "fileSig": [0x56, 0x43, 0x50, 0x43, 0x48, 0x30]
+  },
+
+  {
+    "description": "Visual Basic User-defined Control file",
+    "ext": [".ctl"],
+    "fileSig": [0x56, 0x45, 0x52, 0x53, 0x49, 0x4f, 0x4e, 0x20]
+  },
+
+  {
+    "description": "MapInfo Interchange Format file",
+    "ext": [".mif"],
+    "fileSig": [0x56, 0x65, 0x72, 0x73, 0x69, 0x6f, 0x6e, 0x20]
+  },
+
+  {
+    "description": "SPSS template",
+    "ext": [".sct"],
+    "fileSig": [0x57, 0x04, 0x00, 0x00, 0x53, 0x50, 0x53, 0x53, 0x20, 0x74, 0x65, 0x6d, 0x70, 0x6c, 0x61, 0x74]
+  },
+
+  {
+    "description": "RIFF Windows Audio",
+    "ext": [".wav"],
+    "fileSig": [0x57, 0x41, 0x56, 0x45, 0x66, 0x6d, 0x74, 0x20]
+  },
+
+  {
+    "description": "RIFF WebP",
+    "ext": [".webp"],
+    "fileSig": [0x57, 0x45, 0x42, 0x50]
+  },
+
+  {
+    "description": "Walkman MP3 file",
+    "ext": [".dat"],
+    "fileSig": [0x57, 0x4d, 0x4d, 0x50]
+  },
+
+  {
+    "description": "WordStar for Windows file",
+    "ext": [".ws2"],
+    "fileSig": [0x57, 0x53, 0x32, 0x30, 0x30, 0x30]
+  },
+
+  {
+    "description": "WinZip compressed archive",
+    "ext": [".zip"],
+    "fileSig": [0x57, 0x69, 0x6e, 0x5a, 0x69, 0x70]
+  },
+
+  {
+    "description": "Lotus WordPro file",
+    "ext": [".lwp"],
+    "fileSig": [0x57, 0x6f, 0x72, 0x64, 0x50, 0x72, 0x6f]
+  },
+
+  {
+    "description": "Exchange e-mail",
+    "ext": [".eml"],
+    "fileSig": [0x58, 0x2d]
+  },
+
+  {
+    "description": "Packet sniffer files",
+    "ext": [".cap"],
+    "fileSig": [0x58, 0x43, 0x50, 0x00]
+  },
+
+  {
+    "description": "XPCOM libraries",
+    "ext": [".xpt"],
+    "fileSig": [0x58, 0x50, 0x43, 0x4f, 0x4d, 0x0a, 0x54, 0x79]
+  },
+
+  {
+    "description": "SMPTE DPX file (little endian)",
+    "ext": [".dpx"],
+    "fileSig": [0x58, 0x50, 0x44, 0x53]
+  },
+
+  {
+    "description": "MS Publisher",
+    "ext": [".bdr"],
+    "fileSig": [0x58, 0x54]
+  },
+
+  {
+    "description": "ZOO compressed archive",
+    "ext": [".zoo"],
+    "fileSig": [0x5a, 0x4f, 0x4f, 0x20]
+  },
+
+  {
+    "description": "Macromedia Shockwave Flash",
+    "ext": [".swf"],
+    "fileSig": [0x5a, 0x57, 0x53]
+  },
+
+  {
+    "description": "MS Exchange configuration file",
+    "ext": [".ecf"],
+    "fileSig": [0x5b, 0x47, 0x65, 0x6e, 0x65, 0x72, 0x61, 0x6c]
+  },
+
+  {
+    "description": "Visual C++ Workbench Info File",
+    "ext": [".vcw"],
+    "fileSig": [0x5b, 0x4d, 0x53, 0x56, 0x43]
+  },
+
+  {
+    "description": "Dial-up networking file",
+    "ext": [".dun"],
+    "fileSig": [0x5b, 0x50, 0x68, 0x6f, 0x6e, 0x65, 0x5d]
+  },
+
+  {
+    "description": "Lotus AMI Pro document_1",
+    "ext": [".sam"],
+    "fileSig": [0x5b, 0x56, 0x45, 0x52, 0x5d]
+  },
+
+  {
+    "description": "VocalTec VoIP media file",
+    "ext": [".vmd"],
+    "fileSig": [0x5b, 0x56, 0x4d, 0x44, 0x5d]
+  },
+
+  {
+    "description": "Microsoft Code Page Translation file",
+    "ext": [".cpx"],
+    "fileSig": [0x5b, 0x57, 0x69, 0x6e, 0x64, 0x6f, 0x77, 0x73]
+  },
+
+  {
+    "description": "Flight Simulator Aircraft Configuration",
+    "ext": [".cfg"],
+    "fileSig": [0x5b, 0x66, 0x6c, 0x74, 0x73, 0x69, 0x6d, 0x2e]
+  },
+
+  {
+    "description": "WinAmp Playlist",
+    "ext": [".pls"],
+    "fileSig": [0x5b, 0x70, 0x6c, 0x61, 0x79, 0x6c, 0x69, 0x73, 0x74, 0x5d]
+  },
+
+  {
+    "description": "Lotus AMI Pro document_2",
+    "ext": [".sam"],
+    "fileSig": [0x5b, 0x76, 0x65, 0x72, 0x5d]
+  },
+
+  {
+    "description": "Husqvarna Designer",
+    "ext": [".hus"],
+    "fileSig": [0x5d, 0xfc, 0xc8, 0x00]
+  },
+
+  {
+    "description": "Jar archive",
+    "ext": [".jar"],
+    "fileSig": [0x5f, 0x27, 0xa8, 0x89]
+  },
+
+  {
+    "description": "EnCase case file",
+    "ext": [".cas", ".cbk"],
+    "fileSig": [0x5f, 0x43, 0x41, 0x53, 0x45, 0x5f]
+  },
+
+  {
+    "description": "Compressed archive file",
+    "ext": [".arj"],
+    "fileSig": [0x60, 0xea]
+  },
+
+  {
+    "description": "UUencoded file",
+    "ext": [".(none)"],
+    "fileSig": [0x62, 0x65, 0x67, 0x69, 0x6e]
+  },
+
+  {
+    "description": "UUencoded BASE64 file",
+    "ext": [".b64"],
+    "fileSig": [0x62, 0x65, 0x67, 0x69, 0x6e, 0x2d, 0x62, 0x61, 0x73, 0x65, 0x36, 0x34]
+  },
+
+  {
+    "description": "Binary property list (plist)",
+    "ext": [".(none)"],
+    "fileSig": [0x62, 0x70, 0x6c, 0x69, 0x73, 0x74]
+  },
+
+  {
+    "description": "Apple Core Audio File",
+    "ext": [".caf"],
+    "fileSig": [0x63, 0x61, 0x66, 0x66]
+  },
+
+  {
+    "description": "Macintosh encrypted Disk image (v1)",
+    "ext": [".dmg"],
+    "fileSig": [0x63, 0x64, 0x73, 0x61, 0x65, 0x6e, 0x63, 0x72]
+  },
+
+  {
+    "description": "Virtual PC HD image",
+    "ext": [".vhd"],
+    "fileSig": [0x63, 0x6f, 0x6e, 0x65, 0x63, 0x74, 0x69, 0x78]
+  },
+
+  {
+    "description": "Photoshop Custom Shape",
+    "ext": [".csh"],
+    "fileSig": [0x63, 0x75, 0x73, 0x68, 0x00, 0x00, 0x00, 0x02]
+  },
+
+  {
+    "description": "Intel PROset-Wireless Profile",
+    "ext": [".p10"],
+    "fileSig": [0x64, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Torrent file",
+    "ext": [".torrent"],
+    "fileSig": [0x64, 0x38, 0x3a, 0x61, 0x6e, 0x6e, 0x6f, 0x75, 0x6e, 0x63, 0x65]
+  },
+
+  {
+    "description": "Dalvik (Android) executable file",
+    "ext": [".dex"],
+    "fileSig": [0x64, 0x65, 0x78, 0x0a]
+  },
+
+  {
+    "description": "Audacity audio file",
+    "ext": [".au"],
+    "fileSig": [0x64, 0x6e, 0x73, 0x2e]
+  },
+
+  {
+    "description": "MS Visual Studio workspace file",
+    "ext": [".dsw"],
+    "fileSig": [0x64, 0x73, 0x77, 0x66, 0x69, 0x6c, 0x65]
+  },
+
+  {
+    "description": "Macintosh encrypted Disk image (v2)",
+    "ext": [".dmg"],
+    "fileSig": [0x65, 0x6e, 0x63, 0x72, 0x63, 0x64, 0x73, 0x61]
+  },
+
+  {
+    "description": "WinNT printer spool file",
+    "ext": [".shd"],
+    "fileSig": [0x66, 0x49, 0x00, 0x00]
+  },
+
+  {
+    "description": "Free Lossless Audio Codec file",
+    "ext": [".flac"],
+    "fileSig": [0x66, 0x4c, 0x61, 0x43, 0x00, 0x00, 0x00, 0x22]
+  },
+
+  {
+    "description": "MPEG-4 video file_1",
+    "ext": [".mp4"],
+    "fileSig": [0x66, 0x74, 0x79, 0x70, 0x33, 0x67, 0x70, 0x35]
+  },
+
+  {
+    "description": "Apple Lossless Audio Codec file",
+    "ext": [".m4a"],
+    "fileSig": [0x66, 0x74, 0x79, 0x70, 0x4d, 0x34, 0x41, 0x20]
+  },
+
+  {
+    "description": "ISO Media-MPEG v4-iTunes AVC-LC",
+    "ext": [".flv", ".m4v"],
+    "fileSig": [0x66, 0x74, 0x79, 0x70, 0x4d, 0x34, 0x56, 0x20]
+  },
+
+  {
+    "description": "MPEG-4 video file_2",
+    "ext": [".mp4"],
+    "fileSig": [0x66, 0x74, 0x79, 0x70, 0x4d, 0x53, 0x4e, 0x56]
+  },
+
+  {
+    "description": "ISO Base Media file (MPEG-4) v1",
+    "ext": [".mp4"],
+    "fileSig": [0x66, 0x74, 0x79, 0x70, 0x69, 0x73, 0x6f, 0x6d]
+  },
+
+  {
+    "description": "MPEG-4 video-QuickTime file",
+    "ext": [".m4v"],
+    "fileSig": [0x66, 0x74, 0x79, 0x70, 0x6d, 0x70, 0x34, 0x32]
+  },
+
+  {
+    "description": "QuickTime movie_7",
+    "ext": [".mov"],
+    "fileSig": [0x66, 0x74, 0x79, 0x70, 0x71, 0x74, 0x20, 0x20]
+  },
+
+  {
+    "description": "Win2000-XP printer spool file",
+    "ext": [".shd"],
+    "fileSig": [0x67, 0x49, 0x00, 0x00]
+  },
+
+  {
+    "description": "GIMP file",
+    "ext": [".xcf"],
+    "fileSig": [0x67, 0x69, 0x6d, 0x70, 0x20, 0x78, 0x63, 0x66]
+  },
+
+  {
+    "description": "Win Server 2003 printer spool file",
+    "ext": [".shd"],
+    "fileSig": [0x68, 0x49, 0x00, 0x00]
+  },
+
+  {
+    "description": "MacOS icon file",
+    "ext": [".icns"],
+    "fileSig": [0x69, 0x63, 0x6e, 0x73]
+  },
+
+  {
+    "description": "Skype user data file",
+    "ext": [".dbb"],
+    "fileSig": [0x6c, 0x33, 0x33, 0x6c]
+  },
+
+  {
+    "description": "QuickTime movie_1",
+    "ext": [".mov"],
+    "fileSig": [0x6d, 0x6f, 0x6f, 0x76]
+  },
+
+  {
+    "description": "QuickTime movie_2",
+    "ext": [".mov"],
+    "fileSig": [0x66, 0x72, 0x65, 0x65]
+  },
+
+  {
+    "description": "QuickTime movie_3",
+    "ext": [".mov"],
+    "fileSig": [0x6d, 0x64, 0x61, 0x74]
+  },
+
+  {
+    "description": "QuickTime movie_4",
+    "ext": [".mov"],
+    "fileSig": [0x77, 0x69, 0x64, 0x65]
+  },
+
+  {
+    "description": "QuickTime movie_5",
+    "ext": [".mov"],
+    "fileSig": [0x70, 0x6e, 0x6f, 0x74]
+  },
+
+  {
+    "description": "QuickTime movie_6",
+    "ext": [".mov"],
+    "fileSig": [0x73, 0x6b, 0x69, 0x70]
+  },
+
+  {
+    "description": "Internet Explorer v11 Tracking Protection List",
+    "ext": [".tpl"],
+    "fileSig": [0x6d, 0x73, 0x46, 0x69, 0x6c, 0x74, 0x65, 0x72, 0x4c, 0x69, 0x73, 0x74]
+  },
+
+  {
+    "description": "MultiBit Bitcoin wallet information",
+    "ext": [".info"],
+    "fileSig": [0x6d, 0x75, 0x6c, 0x74, 0x69, 0x42, 0x69, 0x74, 0x2e, 0x69, 0x6e, 0x66, 0x6f]
+  },
+
+  {
+    "description": "SMS text (SIM)",
+    "ext": [".(none)"],
+    "fileSig": [0x6f, 0x3c]
+  },
+
+  {
+    "description": "1Password 4 Cloud Keychain encrypted data",
+    "ext": [".(none)"],
+    "fileSig": [0x6f, 0x70, 0x64, 0x61, 0x74, 0x61, 0x30, 0x31]
+  },
+
+  {
+    "description": "WinNT registry file",
+    "ext": [".dat"],
+    "fileSig": [0x72, 0x65, 0x67, 0x66]
+  },
+
+  {
+    "description": "Sonic Foundry Acid Music File",
+    "ext": [".ac"],
+    "fileSig": [0x72, 0x69, 0x66, 0x66]
+  },
+
+  {
+    "description": "RealMedia metafile",
+    "ext": [".ram"],
+    "fileSig": [0x72, 0x74, 0x73, 0x70, 0x3a, 0x2f, 0x2f]
+  },
+
+  {
+    "description": "Allegro Generic Packfile (compressed)",
+    "ext": [".dat"],
+    "fileSig": [0x73, 0x6c, 0x68, 0x21]
+  },
+
+  {
+    "description": "Allegro Generic Packfile (uncompressed)",
+    "ext": [".dat"],
+    "fileSig": [0x73, 0x6c, 0x68, 0x2e]
+  },
+
+  {
+    "description": "PalmOS SuperMemo",
+    "ext": [".pdb"],
+    "fileSig": [0x73, 0x6d, 0x5f]
+  },
+
+  {
+    "description": "STL (STereoLithography) file",
+    "ext": [".stl"],
+    "fileSig": [0x73, 0x6f, 0x6c, 0x69, 0x64]
+  },
+
+  {
+    "description": "CALS raster bitmap",
+    "ext": [".cal"],
+    "fileSig": [0x73, 0x72, 0x63, 0x64, 0x6f, 0x63, 0x69, 0x64]
+  },
+
+  {
+    "description": "PowerBASIC Debugger Symbols",
+    "ext": [".pdb"],
+    "fileSig": [0x73, 0x7a, 0x65, 0x7a]
+  },
+
+  {
+    "description": "PathWay Map file",
+    "ext": [".prc"],
+    "fileSig": [0x74, 0x42, 0x4d, 0x50, 0x4b, 0x6e, 0x57, 0x72]
+  },
+
+  {
+    "description": "TrueType font",
+    "ext": [".ttf"],
+    "fileSig": [0x74, 0x72, 0x75, 0x65, 0x00]
+  },
+
+  {
+    "description": "Tape Archive",
+    "ext": [".tar"],
+    "fileSig": [0x75, 0x73, 0x74, 0x61, 0x72]
+  },
+
+  {
+    "description": "OpenEXR bitmap image",
+    "ext": [".exr"],
+    "fileSig": [0x76, 0x2f, 0x31, 0x01]
+  },
+
+  {
+    "description": "Qimage filter",
+    "ext": [".flt"],
+    "fileSig": [0x76, 0x32, 0x30, 0x30, 0x33, 0x2e, 0x31, 0x30]
+  },
+
+  {
+    "description": "Web Open Font Format 2",
+    "ext": [".woff2"],
+    "fileSig": [0x77, 0x4f, 0x46, 0x32]
+  },
+
+  {
+    "description": "Web Open Font Format",
+    "ext": [".woff"],
+    "fileSig": [0x77, 0x4f, 0x46, 0x46]
+  },
+
+  {
+    "description": "MacOS X image file",
+    "ext": [".dmg"],
+    "fileSig": [0x78, 0x01, 0x73, 0x0d, 0x62, 0x62, 0x60]
+  },
+
+  {
+    "description": "eXtensible ARchive file",
+    "ext": [".xar"],
+    "fileSig": [0x78, 0x61, 0x72, 0x21]
+  },
+
+  {
+    "description": "ZoomBrowser Image Index",
+    "ext": [".info"],
+    "fileSig": [0x7a, 0x62, 0x65, 0x78]
+  },
+
+  {
+    "description": "Windows application log",
+    "ext": [".lgc", ".lgd"],
+    "fileSig": [0x7b, 0x0d, 0x0a, 0x6f, 0x20]
+  },
+
+  {
+    "description": "Google Drive Drawing link",
+    "ext": [".gdraw"],
+    "fileSig": [0x7b, 0x22, 0x75, 0x72, 0x6c, 0x22, 0x3a, 0x20, 0x22, 0x68, 0x74, 0x74, 0x70, 0x73, 0x3a, 0x2f]
+  },
+
+  {
+    "description": "MS WinMobile personal note",
+    "ext": [".pwi"],
+    "fileSig": [0x7b, 0x5c, 0x70, 0x77, 0x69]
+  },
+
+  {
+    "description": "Rich Text Format",
+    "ext": [".rtf"],
+    "fileSig": [0x7b, 0x5c, 0x72, 0x74, 0x66, 0x31]
+  },
+
+  {
+    "description": "Huskygram Poem or Singer embroidery",
+    "ext": [".csd"],
+    "fileSig": [0x7c, 0x4b, 0xc3, 0x74, 0xe1, 0xc8, 0x53, 0xa4, 0x79, 0xb9, 0x01, 0x1d, 0xfc, 0x4f, 0xdd, 0x13]
+  },
+
+  {
+    "description": "Corel Paint Shop Pro image",
+    "ext": [".psp"],
+    "fileSig": [0x7e, 0x42, 0x4b, 0x00]
+  },
+
+  {
+    "description": "Easy Street Draw diagram file",
+    "ext": [".esd"],
+    "fileSig": [0x7e, 0x45, 0x53, 0x44, 0x77, 0xf6, 0x85, 0x3e, 0xbf, 0x6a, 0xd2, 0x11, 0x45, 0x61, 0x73, 0x79, 0x20, 0x53, 0x74, 0x72, 0x65, 0x65, 0x74, 0x20, 0x44, 0x72, 0x61, 0x77]
+  },
+
+  {
+    "description": "Digital Watchdog DW-TP-500G audio",
+    "ext": [".img"],
+    "fileSig": [0x7e, 0x74, 0x2c, 0x01, 0x50, 0x70, 0x02, 0x4d, 0x52]
+  },
+
+  {
+    "description": "ELF executable",
+    "ext": [".(none)"],
+    "fileSig": [0x7f, 0x45, 0x4c, 0x46]
+  },
+
+  {
+    "description": "Relocatable object code",
+    "ext": [".obj"],
+    "fileSig": [0x80]
+  },
+
+  {
+    "description": "Dreamcast audio",
+    "ext": [".adx"],
+    "fileSig": [0x80, 0x00, 0x00, 0x20, 0x03, 0x12, 0x04]
+  },
+
+  {
+    "description": "Kodak Cineon image",
+    "ext": [".cin"],
+    "fileSig": [0x80, 0x2a, 0x5f, 0xd7]
+  },
+
+  {
+    "description": "Outlook Express address book (Win95)",
+    "ext": [".wab"],
+    "fileSig": [0x81, 0x32, 0x84, 0xc1, 0x85, 0x05, 0xd0, 0x11]
+  },
+
+  {
+    "description": "WordPerfect text",
+    "ext": [".wpf"],
+    "fileSig": [0x81, 0xcd, 0xab]
+  },
+
+  {
+    "description": "PNG image",
+    "ext": [".png"],
+    "fileSig": [0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]
+  },
+
+  {
+    "description": "MS Answer Wizard",
+    "ext": [".aw"],
+    "fileSig": [0x8a, 0x01, 0x09, 0x00, 0x00, 0x00, 0xe1, 0x08]
+  },
+
+  {
+    "description": "Hamarsoft compressed archive",
+    "ext": [".hap"],
+    "fileSig": [0x91, 0x33, 0x48, 0x46]
+  },
+
+  {
+    "description": "PGP secret keyring_1",
+    "ext": [".skr"],
+    "fileSig": [0x95, 0x00]
+  },
+
+  {
+    "description": "PGP secret keyring_2",
+    "ext": [".skr"],
+    "fileSig": [0x95, 0x01]
+  },
+
+  {
+    "description": "JBOG2 image file",
+    "ext": [".jb2"],
+    "fileSig": [0x97, 0x4a, 0x42, 0x32, 0x0d, 0x0a, 0x1a, 0x0a]
+  },
+
+  {
+    "description": "GPG public keyring",
+    "ext": [".gpg"],
+    "fileSig": [0x99]
+  },
+
+  {
+    "description": "PGP public keyring",
+    "ext": [".pkr"],
+    "fileSig": [0x99, 0x01]
+  },
+
+  {
+    "description": "Outlook address file",
+    "ext": [".wab"],
+    "fileSig": [0x9c, 0xcb, 0xcb, 0x8d, 0x13, 0x75, 0xd2, 0x11]
+  },
+
+  {
+    "description": "tcpdump (libpcap) capture file",
+    "ext": [".(none)"],
+    "fileSig": [0xa1, 0xb2, 0xc3, 0xd4]
+  },
+
+  {
+    "description": "Extended tcpdump (libpcap) capture file",
+    "ext": [".(none)"],
+    "fileSig": [0xa1, 0xb2, 0xcd, 0x34]
+  },
+
+  {
+    "description": "Access Data FTK evidence",
+    "ext": [".dat"],
+    "fileSig": [0xa9, 0x0d, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Khronos texture file",
+    "ext": [".ktx"],
+    "fileSig": [0xab, 0x4b, 0x54, 0x58, 0x20, 0x31, 0x31, 0xbb, 0x0d, 0x0a, 0x1a, 0x0a]
+  },
+
+  {
+    "description": "Quicken data",
+    "ext": [".qdf"],
+    "fileSig": [0xac, 0x9e, 0xbd, 0x8f, 0x00, 0x00]
+  },
+
+  {
+    "description": "PowerPoint presentation subheader_3",
+    "ext": [".ppt"],
+    "fileSig": [0xa0, 0x46, 0x1d, 0xf0]
+  },
+
+  {
+    "description": "Java serialization data",
+    "ext": [".(none)"],
+    "fileSig": [0xac, 0xed]
+  },
+
+  {
+    "description": "BGBlitz position database file",
+    "ext": [".pdb"],
+    "fileSig": [0xac, 0xed, 0x00, 0x05, 0x73, 0x72, 0x00, 0x12]
+  },
+
+  {
+    "description": "Win95 password file",
+    "ext": [".pwl"],
+    "fileSig": [0xb0, 0x4d, 0x46, 0x43]
+  },
+
+  {
+    "description": "PCX bitmap",
+    "ext": [".dcx"],
+    "fileSig": [0xb1, 0x68, 0xde, 0x3a]
+  },
+
+  {
+    "description": "Acronis True Image_1",
+    "ext": [".tib"],
+    "fileSig": [0xb4, 0x6e, 0x68, 0x44]
+  },
+
+  {
+    "description": "Windows calendar",
+    "ext": [".cal"],
+    "fileSig": [0xb5, 0xa2, 0xb0, 0xb3, 0xb3, 0xb0, 0xa5, 0xb5]
+  },
+
+  {
+    "description": "InstallShield Script",
+    "ext": [".ins"],
+    "fileSig": [0xb8, 0xc9, 0x0c, 0x00]
+  },
+
+  {
+    "description": "MS Write file_3",
+    "ext": [".wri"],
+    "fileSig": [0xbe, 0x00, 0x00, 0x00, 0xab]
+  },
+
+  {
+    "description": "Palm Desktop DateBook",
+    "ext": [".dat"],
+    "fileSig": [0xbe, 0xba, 0xfe, 0xca, 0x0f, 0x50, 0x61, 0x6c, 0x6d, 0x53, 0x47, 0x20, 0x44, 0x61, 0x74, 0x61]
+  },
+
+  {
+    "description": "MS Agent Character file",
+    "ext": [".acs"],
+    "fileSig": [0xc3, 0xab, 0xcd, 0xab]
+  },
+
+  {
+    "description": "Adobe encapsulated PostScript",
+    "ext": [".eps"],
+    "fileSig": [0xc5, 0xd0, 0xd3, 0xc6]
+  },
+
+  {
+    "description": "Jeppesen FliteLog file",
+    "ext": [".lbk"],
+    "fileSig": [0xc8, 0x00, 0x79, 0x00]
+  },
+
+  {
+    "description": "Java bytecode",
+    "ext": [".class"],
+    "fileSig": [0xca, 0xfe, 0xba, 0xbe]
+  },
+
+  {
+    "description": "Nokia phone backup file",
+    "ext": [".nbu"],
+    "fileSig": [0xcc, 0x52, 0x33, 0xfc, 0xe9, 0x2c, 0x18, 0x48, 0xaf, 0xe3, 0x36, 0x30, 0x1a, 0x39, 0x40, 0x06]
+  },
+
+  {
+    "description": "NAV quarantined virus file",
+    "ext": [".(none)"],
+    "fileSig": [0xcd, 0x20, 0xaa, 0xaa, 0x02, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Acronis True Image_2",
+    "ext": [".tib"],
+    "fileSig": [0xce, 0x24, 0xb9, 0xa2, 0x20, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Java Cryptography Extension keystore",
+    "ext": [".jceks"],
+    "fileSig": [0xce, 0xce, 0xce, 0xce]
+  },
+
+  {
+    "description": "OS X ABI Mach-O binary (32-bit reverse)",
+    "ext": [".(none)"],
+    "fileSig": [0xce, 0xfa, 0xed, 0xfe]
+  },
+
+  {
+    "description": "Perfect Office document",
+    "ext": [".doc"],
+    "fileSig": [0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1, 0x00]
+  },
+
+  {
+    "description": "Outlook Express e-mail folder",
+    "ext": [".dbx"],
+    "fileSig": [0xcf, 0xad, 0x12, 0xfe]
+  },
+
+  {
+    "description": "OS X ABI Mach-O binary (64-bit reverse)",
+    "ext": [".(none)"],
+    "fileSig": [0xcf, 0xfa, 0xed, 0xfe]
+  },
+
+  {
+    "description": "Microsoft Office document",
+    "ext": [".doc", ".dot", ".pps", ".ppt", ".xla", ".xls", ".wiz"],
+    "fileSig": [0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]
+  },
+
+  {
+    "description": "CaseWare Working Papers",
+    "ext": [".ac_"],
+    "fileSig": [0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]
+  },
+
+  {
+    "description": "Access project file",
+    "ext": [".adp"],
+    "fileSig": [0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]
+  },
+
+  {
+    "description": "Lotus-IBM Approach 97 file",
+    "ext": [".apr"],
+    "fileSig": [0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]
+  },
+
+  {
+    "description": "MSWorks database file",
+    "ext": [".db"],
+    "fileSig": [0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]
+  },
+
+  {
+    "description": "Microsoft Common Console Document",
+    "ext": [".msc"],
+    "fileSig": [0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]
+  },
+
+  {
+    "description": "Microsoft Installer package",
+    "ext": [".msi"],
+    "fileSig": [0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]
+  },
+
+  {
+    "description": "Microsoft Installer Patch",
+    "ext": [".msp"],
+    "fileSig": [0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]
+  },
+
+  {
+    "description": "Minitab data file",
+    "ext": [".mtw"],
+    "fileSig": [0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]
+  },
+
+  {
+    "description": "ArcMap GIS project file",
+    "ext": [".mxd"],
+    "fileSig": [0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]
+  },
+
+  {
+    "description": "Developer Studio File Options file",
+    "ext": [".opt"],
+    "fileSig": [0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]
+  },
+
+  {
+    "description": "MS Publisher file",
+    "ext": [".pub"],
+    "fileSig": [0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]
+  },
+
+  {
+    "description": "Revit Project file",
+    "ext": [".rvt"],
+    "fileSig": [0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]
+  },
+
+  {
+    "description": "Visual Studio Solution User Options file",
+    "ext": [".sou"],
+    "fileSig": [0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]
+  },
+
+  {
+    "description": "SPSS output file",
+    "ext": [".spo"],
+    "fileSig": [0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]
+  },
+
+  {
+    "description": "Visio file",
+    "ext": [".vsd"],
+    "fileSig": [0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]
+  },
+
+  {
+    "description": "MSWorks text document",
+    "ext": [".wps"],
+    "fileSig": [0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1]
+  },
+
+  {
+    "description": "WinPharoah filter file",
+    "ext": [".ftr"],
+    "fileSig": [0xd2, 0x0a, 0x00, 0x00]
+  },
+
+  {
+    "description": "AOL history|typed URL files",
+    "ext": [".arl", ".aut"],
+    "fileSig": [0xd4, 0x2a]
+  },
+
+  {
+    "description": "WinDump (winpcap) capture file",
+    "ext": [".(none)"],
+    "fileSig": [0xd4, 0xc3, 0xb2, 0xa1]
+  },
+
+  {
+    "description": "Windows graphics metafile",
+    "ext": [".wmf"],
+    "fileSig": [0xd7, 0xcd, 0xc6, 0x9a]
+  },
+
+  {
+    "description": "Word 2.0 file",
+    "ext": [".doc"],
+    "fileSig": [0xdb, 0xa5, 0x2d, 0x00]
+  },
+
+  {
+    "description": "Corel color palette",
+    "ext": [".cpl"],
+    "fileSig": [0xdc, 0xdc]
+  },
+
+  {
+    "description": "eFax file",
+    "ext": [".efx"],
+    "fileSig": [0xdc, 0xfe]
+  },
+
+  {
+    "description": "Amiga icon",
+    "ext": [".info"],
+    "fileSig": [0xe3, 0x10, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Win98 password file",
+    "ext": [".pwl"],
+    "fileSig": [0xe3, 0x82, 0x85, 0x96]
+  },
+
+  {
+    "description": "MS OneNote note",
+    "ext": [".one"],
+    "fileSig": [0xe4, 0x52, 0x5c, 0x7b, 0x8c, 0xd8, 0xa7, 0x4d]
+  },
+
+  {
+    "description": "Windows executable file_1",
+    "ext": [".com", ".sys"],
+    "fileSig": [0xe8]
+  },
+
+  {
+    "description": "Windows executable file_2",
+    "ext": [".com", ".sys"],
+    "fileSig": [0xe9]
+  },
+
+  {
+    "description": "Windows executable file_3",
+    "ext": [".com", ".sys"],
+    "fileSig": [0xeb]
+  },
+
+  {
+    "description": "GEM Raster file",
+    "ext": [".img"],
+    "fileSig": [0xeb, 0x3c, 0x90, 0x2a]
+  },
+
+  {
+    "description": "BitLocker boot sector (Vista)",
+    "ext": [".(none)"],
+    "fileSig": [0xeb, 0x52, 0x90, 0x2d, 0x46, 0x56, 0x45, 0x2d]
+  },
+
+  {
+    "description": "BitLocker boot sector (Win7)",
+    "ext": [".(none)"],
+    "fileSig": [0xeb, 0x58, 0x90, 0x2d, 0x46, 0x56, 0x45, 0x2d]
+  },
+
+  {
+    "description": "Word document subheader",
+    "ext": [".doc"],
+    "fileSig": [0xec, 0xa5, 0xc1, 0x00]
+  },
+
+  {
+    "description": "RedHat Package Manager",
+    "ext": [".rpm"],
+    "fileSig": [0xed, 0xab, 0xee, 0xdb]
+  },
+
+  {
+    "description": "UTF-8 file",
+    "ext": [".(none)"],
+    "fileSig": [0xef, 0xbb, 0xbf]
+  },
+
+  {
+    "description": "Windows Script Component (UTF-8)_1",
+    "ext": [".wsf"],
+    "fileSig": [0xef, 0xbb, 0xbf, 0x3c]
+  },
+
+  {
+    "description": "Windows Script Component (UTF-8)_2",
+    "ext": [".wsc"],
+    "fileSig": [0xef, 0xbb, 0xbf, 0x3c, 0x3f]
+  },
+
+  {
+    "description": "YouTube Timed Text (subtitle) file",
+    "ext": [".ytt"],
+    "fileSig": [0xef, 0xbb, 0xbf, 0x3c, 0x3f, 0x78, 0x6d, 0x6c, 0x20, 0x76, 0x65, 0x72, 0x73, 0x69, 0x6f, 0x6e]
+  },
+
+  {
+    "description": "FAT12 File Allocation Table",
+    "ext": [".(none)"],
+    "fileSig": [0xf0, 0xff, 0xff]
+  },
+
+  {
+    "description": "FAT16 File Allocation Table",
+    "ext": [".(none)"],
+    "fileSig": [0xf8, 0xff, 0xff, 0xff]
+  },
+
+  {
+    "description": "FAT32 File Allocation Table_1",
+    "ext": [".(none)"],
+    "fileSig": [0xf8, 0xff, 0xff, 0x0f, 0xff, 0xff, 0xff, 0x0f]
+  },
+
+  {
+    "description": "FAT32 File Allocation Table_2",
+    "ext": [".(none)"],
+    "fileSig": [0xf8, 0xff, 0xff, 0x0f, 0xff, 0xff, 0xff, 0xff]
+  },
+
+  {
+    "description": "Bitcoin-Qt blockchain block file",
+    "ext": [".dat"],
+    "fileSig": [0xf9, 0xbe, 0xb4, 0xd9]
+  },
+
+  {
+    "description": "XZ archive",
+    "ext": [".xz"],
+    "fileSig": [0xfd, 0x37, 0x7a, 0x58, 0x5a, 0x00]
+  },
+
+  {
+    "description": "MS Publisher subheader",
+    "ext": [".pub"],
+    "fileSig": [0xfd, 0x37, 0x7a, 0x58, 0x5a, 0x00]
+  },
+
+  {
+    "description": "Thumbs.db subheader",
+    "ext": [".db"],
+    "fileSig": [0xfd, 0xff, 0xff, 0xff]
+  },
+
+  {
+    "description": "MS Publisher file subheader",
+    "ext": [".pub"],
+    "fileSig": [0xfd, 0xff, 0xff, 0xff, 0x02]
+  },
+
+  {
+    "description": "Microsoft Outlook-Exchange Message",
+    "ext": [".msg"],
+    "fileSig": [0xfd, 0xff, 0xff, 0xff, 0x04]
+  },
+
+  {
+    "description": "QuickBooks Portable Company File",
+    "ext": [".qbm"],
+    "fileSig": [0xfd, 0xff, 0xff, 0xff, 0x04]
+  },
+
+  {
+    "description": "Visual Studio Solution subheader",
+    "ext": [".suo"],
+    "fileSig": [0xfd, 0xff, 0xff, 0xff, 0x04]
+  },
+
+  {
+    "description": "PowerPoint presentation subheader_4",
+    "ext": [".ppt"],
+    "fileSig": [0xfd, 0xff, 0xff, 0xff, 0x0e, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Excel spreadsheet subheader_2",
+    "ext": [".xls"],
+    "fileSig": [0xfd, 0xff, 0xff, 0xff, 0x10]
+  },
+
+  {
+    "description": "PowerPoint presentation subheader_5",
+    "ext": [".ppt"],
+    "fileSig": [0xfd, 0xff, 0xff, 0xff, 0x1c, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "Excel spreadsheet subheader_3",
+    "ext": [".xls"],
+    "fileSig": [0xfd, 0xff, 0xff, 0xff, 0x1f]
+  },
+
+  {
+    "description": "Developer Studio subheader",
+    "ext": [".opt"],
+    "fileSig": [0xfd, 0xff, 0xff, 0xff, 0x20]
+  },
+
+  {
+    "description": "Excel spreadsheet subheader_4",
+    "ext": [".xls"],
+    "fileSig": [0xfd, 0xff, 0xff, 0xff, 0x22]
+  },
+
+  {
+    "description": "Excel spreadsheet subheader_5",
+    "ext": [".xls"],
+    "fileSig": [0xfd, 0xff, 0xff, 0xff, 0x23]
+  },
+
+  {
+    "description": "Excel spreadsheet subheader_6",
+    "ext": [".xls"],
+    "fileSig": [0xfd, 0xff, 0xff, 0xff, 0x28]
+  },
+
+  {
+    "description": "Excel spreadsheet subheader_7",
+    "ext": [".xls"],
+    "fileSig": [0xfd, 0xff, 0xff, 0xff, 0x29]
+  },
+
+  {
+    "description": "PowerPoint presentation subheader_6",
+    "ext": [".ppt"],
+    "fileSig": [0xfd, 0xff, 0xff, 0xff, 0x43, 0x00, 0x00, 0x00]
+  },
+
+  {
+    "description": "OS X ABI Mach-O binary (32-bit)",
+    "ext": [".(none)"],
+    "fileSig": [0xfe, 0xed, 0xfa, 0xce]
+  },
+
+  {
+    "description": "OS X ABI Mach-O binary (64-bit)",
+    "ext": [".(none)"],
+    "fileSig": [0xfe, 0xed, 0xfa, 0xcf]
+  },
+
+  {
+    "description": "JavaKeyStore",
+    "ext": [".(none)"],
+    "fileSig": [0xfe, 0xed, 0xfe, 0xed]
+  },
+
+  {
+    "description": "Symantex Ghost image file",
+    "ext": [".gho", ".ghs"],
+    "fileSig": [0xfe, 0xef]
+  },
+
+  {
+    "description": "UTF-16-UCS-2 file",
+    "ext": [".(none)"],
+    "fileSig": [0xfe, 0xff]
+  },
+
+  {
+    "description": "Windows executable",
+    "ext": [".sys"],
+    "fileSig": [0xff]
+  },
+
+  {
+    "description": "Works for Windows spreadsheet",
+    "ext": [".wks"],
+    "fileSig": [0xff, 0x00, 0x02, 0x00, 0x04, 0x04, 0x05, 0x54]
+  },
+
+  {
+    "description": "QuickReport Report",
+    "ext": [".qrp"],
+    "fileSig": [0xff, 0x0a, 0x00]
+  },
+
+  {
+    "description": "Windows international code page",
+    "ext": [".cpi"],
+    "fileSig": [0xff, 0x46, 0x4f, 0x4e, 0x54]
+  },
+
+  {
+    "description": "Keyboard driver file",
+    "ext": [".sys"],
+    "fileSig": [0xff, 0x4b, 0x45, 0x59, 0x42, 0x20, 0x20, 0x20]
+  },
+
+  {
+    "description": "WordPerfect text and graphics",
+    "ext": [".wp", ".wpd", ".wpg", ".wpp", ".wp5", ".wp6"],
+    "fileSig": [0xff, 0x57, 0x50, 0x43]
+  },
+
+  {
+    "description": "Generic JPEG Image file",
+    "ext": [".jpe", ".jpeg", ".jpg"],
+    "fileSig": [0xff, 0xd8]
+  },
+
+  {
+    "description": "JPEG-EXIF-SPIFF images",
+    "ext": [".jfif", ".jpe", ".jpeg", ".jpg"],
+    "fileSig": [0xff, 0xd8, 0xff]
+  },
+
+  {
+    "description": "MPEG-4 AAC audio",
+    "ext": [".aac"],
+    "fileSig": [0xff, 0xf1]
+  },
+
+  {
+    "description": "MPEG-2 AAC audio",
+    "ext": [".aac"],
+    "fileSig": [0xff, 0xf9]
+  },
+
+  {
+    "description": "Windows Registry file",
+    "ext": [".reg"],
+    "fileSig": [0xff, 0xfe]
+  },
+
+  {
+    "description": "UTF-32-UCS-2 file",
+    "ext": [".(none)"],
+    "fileSig": [0xff, 0xfe]
+  },
+
+  {
+    "description": "UTF-32-UCS-4 file",
+    "ext": [".(none)"],
+    "fileSig": [0xff, 0xfe, 0x00, 0x00]
+  },
+
+  {
+    "description": "MSinfo file",
+    "ext": [".mof"],
+    "fileSig": [0xff, 0xfe, 0x23, 0x00, 0x6c, 0x00, 0x69, 0x00]
+  },
+
+  {
+    "description": "DOS system driver",
+    "ext": [".sys"],
+    "fileSig": [0xff, 0xff, 0xff, 0xff]
+  }
+]
