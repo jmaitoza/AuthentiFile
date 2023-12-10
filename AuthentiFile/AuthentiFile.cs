@@ -4,17 +4,17 @@ namespace AuthentiFile;
 
 public class AuthentiFile
 {
-    // link fileSigs.json to the correct build directory when building the project
     // static string jsonFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "fileSigs.json");
-    static string jsonFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "converted_file_sigs.json");
-    // deserialize JSON file into a list of FileSignature objects
-    //private static List<FileSignature> fileSigs = JsonConvert.DeserializeObject<List<FileSignature>>(File.ReadAllText(jsonFilePath)) ?? throw new InvalidOperationException();
+    
+    // link ListOfFileSignatures.json to the correct build directory when building the project
+    static string jsonFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ListOfFileSignatures.json");
     private static List<FileSignature> fileSigs;
 
     static AuthentiFile()
     {
         try
         {
+            // deserialize JSON file into a list of FileSignature objects
             string jsonData = File.ReadAllText(jsonFilePath);
             fileSigs = JsonConvert.DeserializeObject<List<FileSignature>>(jsonData);
         }
@@ -41,7 +41,6 @@ public class AuthentiFile
                 // get file extension listed in file name
                 var fileExtInName = Path.GetExtension(filePath).ToLower();
                 // fetches the first matching file signature based on the file extension in the name
-                //var fileSignature = fileSigs.FirstOrDefault(fileSigs => fileSigs.Ext == fileExtInName);
                 var fileSignature = fileSigs.FirstOrDefault(fileSigs => fileSigs.Ext.Contains(fileExtInName));
     
                 if (fileSignature != null)
@@ -71,6 +70,7 @@ public class AuthentiFile
         
         else
         {
+            // directory does not exist
             Console.WriteLine($"Cannot list files in {dirPath} because it does not exist.");
         }
     }
@@ -88,13 +88,13 @@ public class AuthentiFile
                 Environment.Exit(0);
             }
             
-            // check if input is null
+            // check if user input is null
             else if (string.IsNullOrEmpty(userPath))
             {
                 Console.WriteLine("Please enter a directory.");
             }
             
-            // check if user input a file instead of a directory
+            // check if user has input a file instead of a directory
             else if (File.Exists(userPath))
             {
                 Console.WriteLine("Please enter a directory, not a file.");

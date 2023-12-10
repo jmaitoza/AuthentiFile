@@ -15,7 +15,7 @@
       <None Update="fileSigs.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
-      <None Update="converted_file_sigs.json">
+      <None Update="ListOfFileSignatures.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>
