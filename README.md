@@ -29,7 +29,7 @@ Make sure these packages are installed before attempting to run the project.
 
 ## Functionality
 
-AuthentiFile is a command-line tool written in C# that allows the user to scan a directory and output a list of all masqueraded files within that directory. The program will scan the directory (does not scan subdirectories) and compare the file extensions with the hexadecimal signature of the file to determine if the file is masqueraded. If the file is masqueraded, the program will output the name of the file and the directory it is located in to the console.
+AuthentiFile is a command-line tool written in C# that allows the user to scan a directory and output a list of all masqueraded files within that directory. The program will scan the directory (does not scan subdirectories) and compare the file extensions with the hexadecimal signature of the file to determine if the file is masqueraded. If the file is masqueraded, the program will output the name of the file and the directory it is located into the console.
 
 Example output:
 
@@ -45,15 +45,23 @@ When running the program do not delete any of the files in the same directory as
 **Note**:  
 If you are using Windows, you may get a warning from Windows Defender SmartScreen. This is because the application is not signed. To run the application, click "More Info" and then "Run Anyway"
 
-If you are using Mac, you may get a warning that the application is from an unidentified developer. To run the application, right click the application and select "Open". You will then be prompted to confirm that you want to open the application. Click "Open" to run the application.
+If you are using a Mac, you may get a warning that the application is from an unidentified developer. To run the application, right-click the application and select "Open". You will then be prompted to confirm that you want to open the application. Click "Open" to run the application.
 
-Unfortunately, I do not have access to a Linux machine to test the application on Linux. If you are using Linux and are able to test the application, please let me know if it works or not. You may be able to run the application using Proton on Linux. I have not tested this myself but it may work.
+Unfortunately, I do not have access to a Linux machine to test the application on Linux. If you are using Linux and can test the application, please let me know if it works or not. You may be able to run the application using Proton on Linux. I have not tested this myself but it may work.
 
 ## Usage
 
-To run the program, double click the AuthentiFile.exe file. A terminal window will open and prompt you to enter a directory to scan. Enter the directory you wish to scan and press enter. The program will then scan the directory and output the results to the console. The program will then prompt you to enter another directory to scan. To exit the program, enter "quit" when prompted for a directory.  
+To run the program, double-click the AuthentiFile.exe file. A terminal window will open and prompt you to enter a directory to scan. Enter the directory you wish to scan and press enter. The program will then scan the directory and output the results to the console. The program will then prompt you to enter another directory to scan. To exit the program, enter "quit" when prompted for a directory.  
 
-It is important to note that the program will warn the user if they input the file path of a file instead of a directory as AuthentiFile is only able to scan directories. Also AuthentiFile will only scan one directory at a time and does not scan subdirectories. Any directories within the directory being scanned will be ignored.
+It is important to note that the program will warn the user if they input the file path of a file instead of a directory as AuthentiFile is only able to scan directories. Also, AuthentiFile will only scan one directory at a time and does not scan subdirectories. Any directories within the directory being scanned will be ignored.
+
+**About TXT files:**  
+AuthentiFile will work with .txt files with some caveats. Upon scanning a file with the .txt extension, AuthentiFile will read all the characters inside the file as a string and determine if the contents of the file are all valid plain text. If it believes the file contents to be valid plain text it will prompt the user with a message that the file may be a false positive and to manually inspect the file signature. It will also dump the plain text content inside the file to the console so the user can get a glance at what is inside.  
+If the program detects a file with .txt in the extension that it believes to be another kind of file (such as a .docx for example) the program will list the name of the file and its path as normal.
+
+Example TXT file output:
+![Example Image](images/textFileFalsePositiveExample.png)
+![Text File False Positive Example Screenshot](images/textFileFalsePositiveExample.png)
 
 ## Tested File Types
 
@@ -75,7 +83,7 @@ This program should work with any file type listed within the [file signatures](
 
 
 ### Known Issues
-Does not correctly work with very specific file types such as:
+Does not correctly work with particular file types such as:
 - Older Microsoft Office documents
   - .doc, .xls, .ppt
 - MacOS DMG files
