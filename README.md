@@ -1,6 +1,7 @@
 # AuthentiFile
 
-This repository was created as a requirement of CIS 442 (Fall 2023) at the University of UMass Dartmouth.
+This repository was created as a requirement of CIS 442 (Fall 2023) at the University of UMass Dartmouth.  
+Authored by Joshua Maitoza
 
 ## Table of Contents
 
