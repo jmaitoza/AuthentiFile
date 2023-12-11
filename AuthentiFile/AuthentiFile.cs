@@ -4,8 +4,6 @@ namespace AuthentiFile;
 
 public class AuthentiFile
 {
-    // static string jsonFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "fileSigs.json");
-    
     // link ListOfFileSignatures.json to the correct build directory when building the project
     static string jsonFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ListOfFileSignatures.json");
     private static List<FileSignature> fileSigs;
@@ -41,7 +39,7 @@ public class AuthentiFile
                 // get file extension listed in file name
                 var fileExtInName = Path.GetExtension(filePath).ToLower();
                 // fetches the first matching file signature based on the file extension in the name
-                var fileSignature = fileSigs.FirstOrDefault(fileSigs => fileSigs.Ext.Contains(fileExtInName));
+                var fileSignature = fileSigs.FirstOrDefault(signature => signature.Ext.Contains(fileExtInName));
     
                 if (fileSignature != null)
                 {
@@ -55,9 +53,35 @@ public class AuthentiFile
                         // if not equal, print out the file's name and its file path
                         string fileName = Path.GetFileName(filePath);
                         string absoluteFilePath = Path.GetFullPath(filePath);
-                        Console.WriteLine($"File Name: {fileName}, File Path: {absoluteFilePath}");
-                        
-                        masqueradedFileCount++;
+
+                        if (fileExtInName.Equals(".txt"))
+                        {
+                            // read entire file into a string
+                            string text = File.ReadAllText(filePath);
+                            
+                            /* check if all chars in the file are plain text chars
+                               (all plain text chars are between 32 and 126 in ASCII
+                               9, 10, and 13 are \t, \n, and \r respectively which are also valid plain text)
+                             */
+                            bool isPlainText = text.All(c => (c >= 32 && c <= 126) || c == 9 || c == 10 || c == 13);
+
+                            if (isPlainText)
+                            {
+                                Console.WriteLine($"File Name: {fileName}, File Path: {absoluteFilePath}\nFile contains valid plain text and may be a false positive. You should verify contents manually. Plain text content inside {fileName} below.\nFile contents: {text}");
+                            }
+                            else
+                            {
+                                Console.WriteLine($"File Name: {fileName}, File Path: {absoluteFilePath}");
+                                masqueradedFileCount++;
+                            }
+                            
+                        }
+                        else
+                        {
+                            Console.WriteLine($"File Name: {fileName}, File Path: {absoluteFilePath}");
+
+                            masqueradedFileCount++;
+                        }
                     }
                 }
             } 

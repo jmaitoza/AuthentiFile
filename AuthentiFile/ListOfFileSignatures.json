@@ -3687,5 +3687,41 @@
     "description": "DOS system driver",
     "ext": [".sys"],
     "fileSig": [0xff, 0xff, 0xff, 0xff]
+  },
+  
+  {
+    "description": "UTF-8 byte order mark (for text files encoded with UTF-8)",
+    "ext": [".txt"],
+    "fileSig": [0xef, 0xbb, 0xbf]
+  },
+
+  {
+    "description": "UTF-16LE byte order mark (for text files encoded with UTF-16LE)",
+    "ext": [".txt"],
+    "fileSig": [0xff, 0xfe]
+  },
+
+  {
+    "description": "UTF-16BE byte order mark (for text files encoded with UTF-16BE)",
+    "ext": [".txt"],
+    "fileSig": [0xfe, 0xff]
+  },
+
+  {
+    "description": "UTF-32LE byte order mark (for text files encoded with UTF-32LE)",
+    "ext": [".txt"],
+    "fileSig": [0xff, 0xfe, 0x00, 0x00]
+  },
+  
+  {
+    "description": "UTF-32BE byte order mark (for text files encoded with UTF-32LE)",
+    "ext": [".txt"],
+    "fileSig": [0x00, 0x00, 0xfe, 0xff]
+  },
+
+  {
+    "description": "SCSU (Standard Compression Scheme for Unicode) byte order mark (for text files encoded with SCSU)",
+    "ext": [".txt"],
+    "fileSig": [0x0e, 0xfe, 0xff]
   }
 ]
