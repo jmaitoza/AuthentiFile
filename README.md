@@ -60,8 +60,9 @@ AuthentiFile will work with .txt files with some caveats. Upon scanning a file w
 If the program detects a file with .txt in the extension that it believes to be another kind of file (such as a .docx for example) the program will list the name of the file and its path as normal.
 
 Example TXT file output:
-![Example Image](images/textFileFalsePositiveExample.png)
-![Text File False Positive Example Screenshot](images/textFileFalsePositiveExample.png)
+![Text File False Positive Example Screenshot](images/textFileFalsePositiveExample.png)  
+Note that 'test_text_file.txt' is listed as a false positive and the contents of the file are dumped to the console.  
+Whereas 'wordDoc txt.txt' is listed as a masqueraded file as this was originally a docx file that had the extension changed to .txt
 
 ## Tested File Types
 
